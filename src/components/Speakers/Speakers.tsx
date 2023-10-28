@@ -82,6 +82,7 @@ const Speakers = () => {
         <div className="flex flex-wrap justify-center">
           {data.map((item) => (
             <UserCard
+              key={item.name}
               src={item.image.src}
               name={item.name}
               title={item.title}

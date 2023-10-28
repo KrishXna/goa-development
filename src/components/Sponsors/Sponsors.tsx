@@ -19,7 +19,6 @@ import Threatlocker from "@/assets/Images/threatlocker.png";
 import Synack from "@/assets/Images/synack.png";
 import Votiro from "@/assets/Images/votiro.png";
 import Spidersilk from "@/assets/Images/spidersilk.png";
-import { BgCircleIcon } from "@/assets/Icons";
 const Sponsors = () => {
   const data = [
     { title: "OFFICIAL DISTRIBUTION PARTNER", img: Spire },
@@ -43,13 +42,10 @@ const Sponsors = () => {
   ];
   return (
     <div className="relative">
-      {/* <div className="absolute top-0">
-        <BgCircleIcon />
-      </div> */}
       <Container className="max-w-6xl py-20">
         <div className="flex flex-wrap justify-center gap-4">
           {data.map((item) => (
-            <ImgCard title={item.title} src={item.img.src} />
+            <ImgCard key={item.title} title={item.title} src={item.img.src} />
           ))}
         </div>
       </Container>
