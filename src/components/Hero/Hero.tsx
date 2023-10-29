@@ -10,39 +10,48 @@ import { Button } from "../Button";
 const Hero = () => {
   return (
     <>
-      <Container className="relative z-20">
-        <div className="md:flex justify-between pt-10 md:pt-20">
-          <div className="text-3xl md:text-5xl font-bold max-w-sm text-yellow-200 text-left">
-            BSIDES GOA <br />
-            <span className="text-white-100">&nbsp;SECURITY</span> CONFERENCE
-          </div>
-          <div className="flex flex-col gap-y-4 pr-20 mt-6 md:mt-0">
-            <p className="max-w-xs text-white-200/80">
-              Hurry! Go and grab your passes in early bird discount.
-            </p>
-            <div>
-              <button
-                className="inline-flex gap-2 justify-center items-center px-6 py-2 text-sm font-normal rounded-md"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
-                }}
-              >
-                REGISTER{" "}
-                <span>
-                  <ArrowIcon className="w-4" />
-                </span>
-              </button>
-              {/* <Button variant="colored">REGISTER</Button> */}
+      <div className="relative w-full">
+        <div
+          className="absolute bottom-0 left-0 md:w-[200px] lg:w-[400px] h-[800px] opacity-60 blur-3xl"
+          style={{
+            background: "linear-gradient(180deg, #FFDE77 0%, #FFB32E 100%)",
+          }}
+        ></div>
+        <Container className="relative z-20">
+          <div className="md:flex justify-between pt-10 md:pt-20">
+            <div className="text-3xl md:text-5xl font-bold max-w-sm text-yellow-200 text-left">
+              BSIDES GOA <br />
+              <span className="text-white-100">&nbsp;SECURITY</span> CONFERENCE
+            </div>
+            <div className="flex flex-col gap-y-4 pr-20 mt-6 md:mt-0">
+              <p className="max-w-xs text-white-200/80">
+                Hurry! Go and grab your passes in early bird discount.
+              </p>
+              <div>
+                <button
+                  className="inline-flex gap-2 justify-center items-center px-6 py-2 text-sm font-normal rounded-md"
+                  style={{
+                    background:
+                      "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
+                  }}
+                >
+                  REGISTER{" "}
+                  <span>
+                    <ArrowIcon className="w-4" />
+                  </span>
+                </button>
+                {/* <Button variant="colored">REGISTER</Button> */}
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="py-16">
-          <Image src={Video} alt="video"></Image>
-        </div>
+          <div className="py-16">
+            <Image src={Video} alt="video"></Image>
+          </div>
+        </Container>
+      </div>
 
-        {/*  */}
+      <Container className="relative z-20">
         <div className="md:flex justify-between gap-y-4 ">
           <div className="max-w-md w-full md:w-1/2 flex flex-col gap-4">
             <h2 className="text-4xl font-medium text-white-100">Overview</h2>
@@ -57,11 +66,12 @@ const Hero = () => {
               of cybersecurity.
             </p>
           </div>
-          <div className="max-w-md w-full md:w-1/2 mt-6 md:mt-0">
+          <div className="max-w-sm w-full md:w-1/2 mt-6 md:mt-0">
             <Image src={PeopleMetting} alt="besides_goa_image"></Image>
           </div>
         </div>
       </Container>
+
       <div
         className="w-full mt-16 lg:bg-cover relative z-20"
         style={{ backgroundImage: `url(${ButtonBackground.src})` }}

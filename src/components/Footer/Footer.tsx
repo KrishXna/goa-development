@@ -7,15 +7,15 @@ const Footer = () => {
     <>
       <Container>
         <div className="max-w-5xl mx-auto">
-          <div className="max-w-5xl mx-auto py-4 md:flex justify-between text-white-200/80 text-sm border-b border-yellow-200">
+          <div className="max-w-5xl mx-auto py-4 md:flex justify-between text-white-200/80 text-base border-b border-yellow-200">
             <div>
               <ul className="w-full md:1/4 flex flex-col gap-2 md:gap-4">
                 <li className="text-white-100 text-xl">Event Information</li>
                 <li>25th - 27th April 2023</li>
                 <li>8:30 AM - 7:00 PM</li>
                 <li>Planet Hollywood Resort, Goa</li>
-                <li>Admin@bsidesgoa.in</li>
-                <li>Sponsor@bsidesgoa.in</li>
+                <li className="font-bold">Admin@bsidesgoa.in</li>
+                <li className="font-bold">Sponsor@bsidesgoa.in</li>
               </ul>
             </div>
             <div className="mt-8 md:mt-0">
@@ -41,16 +41,16 @@ const Footer = () => {
               <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                 <li className="text-white-100 text-xl">Sponsors</li>
                 <li>Community Partner</li>
-                <li>Register</li>
+                <li className="font-bold">Register</li>
                 <li>Community Partner</li>
-                <li>Contact Us</li>
+                <li className="font-bold">Contact Us</li>
                 <li>
                   <SocialIcons />
                 </li>
               </ul>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-between items-center pt-4">
+          <div className="flex flex-col md:flex-row justify-between items-center py-4">
             <div>
               <img src={Logo.src} alt="Logo" className="w-40" />
             </div>

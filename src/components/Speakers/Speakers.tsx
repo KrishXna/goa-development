@@ -65,7 +65,7 @@ const Speakers = () => {
 
   return (
     <div
-      className="w-full bg-cover bg-no-repeat bg-center object-contain relative z-20"
+      className="w-full bg-cover bg-no-repeat bg-center object-contain relative z-20 overflow-hidden"
       // style={{ backgroundImage: `url(${DotImage.src})` }}
     >
       <div className="relative overflow-hidden">
@@ -99,22 +99,20 @@ const Speakers = () => {
           </div>
         </Container>
       </div>
+      <div
+        className="absolute bottom-0 left-0 w-80 h-40 rounded-lg opacity-40 blur-2xl"
+        style={{
+          background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
+        }}
+      ></div>
+      <div
+        className="absolute bottom-0 -right-0 w-80 h-40 rounded-lg opacity-40 blur-2xl"
+        style={{
+          background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
+        }}
+      ></div>
     </div>
   );
 };
 
 export default Speakers;
-
-<div className="w-full bg-cover bg-no-repeat bg-center object-contain">
-  <Container className="py-8">
-    <div className="flex justify-center gap-6">
-      <LinesRightIcon className="w-10" />
-
-      <div className="text-3xl font-semibold text-center flex justify-center">
-        <h2 className="text-white-100">RELIVE THE MOMENTS :&nbsp;</h2>
-        <span className="text-yellow-200">A GLIMPSE OF BSIDES GLOBAL</span>
-      </div>
-      <LinesLeftIcon className="w-10" />
-    </div>
-  </Container>
-</div>;

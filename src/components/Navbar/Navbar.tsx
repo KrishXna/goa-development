@@ -12,8 +12,14 @@ const Navbar = () => {
       <div className="absolute z-0">
         <BgCircuit />
       </div>
+      <div
+        className="w-72 h-72 rounded-full absolute right-0 z-0 opacity-40 blur-3xl"
+        style={{
+          background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
+        }}
+      ></div>
       <Container className="relative z-20">
-        <div className="flex justify-between items-center py-2 border-b border-yellow-100">
+        <div className="flex justify-between items-center py-2 border-b border-yellow-100 z-20 relative">
           <div>
             <Image src={Logo} alt="Besides_Goa_Logo" className="w-40" />
           </div>
