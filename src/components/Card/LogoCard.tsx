@@ -7,9 +7,11 @@ type Props = {
 const LogoCard = ({ title, src }: Props) => {
   return (
     <>
-      <div className="w-[160px] h-[160px] bg-white-100 rounded-md flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center">
+      <div className="relative w-[180px] h-[180px] bg-white-100 rounded-md flex justify-center items-center">
+        <div className="absolute z-20 top-4 max-w-[100px]">
           <h2 className="text-center text-sm font-normal">{title}</h2>
+        </div>
+        <div className="relative z-0 top-5">
           <img src={src} alt={title} />
         </div>
       </div>

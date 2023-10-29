@@ -65,31 +65,40 @@ const Speakers = () => {
 
   return (
     <div
-      className="w-full bg-cover bg-no-repeat bg-center object-contain"
-      style={{ backgroundImage: `url(${DotImage.src})` }}
+      className="w-full bg-cover bg-no-repeat bg-center object-contain relative z-20"
+      // style={{ backgroundImage: `url(${DotImage.src})` }}
     >
-      <Container className="py-20">
-        <div className="flex justify-center md:gap-6">
-          <LinesRightIcon className="w-10" />
-          <div className="md:text-3xl font-semibold text-center">
-            <h2 className="text-white-100">
-              TOP INFOSEC LEADERS & ETHICAL HACKERS JOIN
-            </h2>
-            <span className="text-yellow-200">FORCES ON STAGE</span>
+      <div className="relative overflow-hidden">
+        <div className="w-full h-full">
+          <img
+            src={DotImage.src}
+            alt="dot_img"
+            className="absolute max-w-[400%] animate-spin-slowest -top-[200px -left-[200px] sm:-left-[1100px] sm:-top-[400px]"
+          />
+        </div>
+        <Container className="py-20 relative z-20">
+          <div className="flex justify-center md:gap-6">
+            <LinesRightIcon className="w-10" />
+            <div className="md:text-3xl font-semibold text-center">
+              <h2 className="text-white-100">
+                TOP INFOSEC LEADERS & ETHICAL HACKERS JOIN
+              </h2>
+              <span className="text-yellow-200">FORCES ON STAGE</span>
+            </div>
+            <LinesLeftIcon className="w-10" />
           </div>
-          <LinesLeftIcon className="w-10" />
-        </div>
-        <div className="flex flex-wrap justify-center">
-          {data.map((item) => (
-            <UserCard
-              key={item.name}
-              src={item.image.src}
-              name={item.name}
-              title={item.title}
-            />
-          ))}
-        </div>
-      </Container>
+          <div className="flex flex-wrap justify-center">
+            {data.map((item) => (
+              <UserCard
+                key={item.name}
+                src={item.image.src}
+                name={item.name}
+                title={item.title}
+              />
+            ))}
+          </div>
+        </Container>
+      </div>
     </div>
   );
 };

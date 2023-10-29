@@ -22,10 +22,18 @@ const Navbar = () => {
               <div className="flex gap-4">
                 <div>
                   <ul className="flex gap-x-8 text-white-200/80">
-                    <li>About</li>
-                    <li>Schedule</li>
-                    <li>Sponsors</li>
-                    <li>Contact Us</li>
+                    <li className="cursor-pointer hover:text-white-100">
+                      About
+                    </li>
+                    <li className="cursor-pointer hover:text-white-100">
+                      Schedule
+                    </li>
+                    <li className="cursor-pointer hover:text-white-100">
+                      Sponsors
+                    </li>
+                    <li className="cursor-pointer hover:text-white-100">
+                      Contact Us
+                    </li>
                     <li className="border border-white-" />
                   </ul>
                 </div>

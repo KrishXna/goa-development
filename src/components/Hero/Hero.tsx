@@ -5,6 +5,7 @@ import Container from "@/components/Container";
 import Video from "@/assets/Video.png";
 import ButtonBackground from "@/assets/Images/button_frame.png";
 import { ArrowIcon } from "@/assets/Icons";
+import { Button } from "../Button";
 
 const Hero = () => {
   return (
@@ -32,6 +33,7 @@ const Hero = () => {
                   <ArrowIcon className="w-4" />
                 </span>
               </button>
+              {/* <Button variant="colored">REGISTER</Button> */}
             </div>
           </div>
         </div>

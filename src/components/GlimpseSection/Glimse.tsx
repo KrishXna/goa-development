@@ -6,7 +6,7 @@ import Image from "next/image";
 const Glimpse = () => {
   return (
     <div className="w-full bg-cover bg-no-repeat bg-center object-contain bg-[#1d2329]">
-      <Container className="py-8">
+      <Container className="py-8 relative z-20 overflow-hidden">
         <div className="flex justify-center md:gap-6">
           <LinesRightIcon className="w-10" />
           <div className="lg:text-3xl font-semibold text-center md:flex justify-center">
@@ -28,7 +28,7 @@ const Glimpse = () => {
           </div>
           <LinesLeftIcon className="w-10" />
         </div>
-        <p className="text-sm text-center text-white-200/80 mt-2">
+        <p className="text-sm md:text-base font-semibold text-center text-white-100/80 mt-2 lg:px-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

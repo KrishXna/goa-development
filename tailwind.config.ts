@@ -21,6 +21,9 @@ const config: Config = {
       },
     },
     extend: {
+      animation: {
+        "spin-slowest": "spin 200s linear infinite",
+      },
       backgroundImage: {
         // "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         // "gradient-conic":
