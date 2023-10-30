@@ -1,3 +1,4 @@
+import { LinkedinIcon, TwitterIcon } from "@/assets/Icons";
 import React from "react";
 
 type Props = {
@@ -10,8 +11,22 @@ const ImgCard = ({ src, name, title }: Props) => {
   return (
     <>
       <div className="max-w-[300px] p-6">
-        <div className="text-center">
-          <img src={src} alt={`${name} img`} />
+        <div className="text-center group">
+          <div className="relative">
+            <div className="absolute inset-0 group-hover:bg-[#000]/40 group-hover:opacity-100 opacity-20 ">
+              <div className="absolute bottom-0">
+                <div className="flex border jus">
+                  <div>
+                    <TwitterIcon />
+                  </div>
+                  <div>
+                    <LinkedinIcon />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src={src} alt={`${name} img`} />
+          </div>
           <div
             className="flex flex-col gap-1 py-2"
             style={{

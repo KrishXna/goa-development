@@ -100,13 +100,13 @@ const Speakers = () => {
         </Container>
       </div>
       <div
-        className="absolute bottom-0 left-0 w-80 h-40 rounded-lg opacity-40 blur-2xl"
+        className="absolute -bottom-96 -left-80 w-[700px] h-[600px] rounded-full opacity-40 blur-3xl"
         style={{
           background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
         }}
       ></div>
       <div
-        className="absolute bottom-0 -right-0 w-80 h-40 rounded-lg opacity-40 blur-2xl"
+        className="absolute -bottom-96 -right-80 w-[700px] h-[600px] rounded-full opacity-40 blur-3xl"
         style={{
           background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
         }}

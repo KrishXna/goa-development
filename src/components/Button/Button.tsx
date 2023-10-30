@@ -85,11 +85,3 @@ export const Button = ({
 };
 
 export default Button;
-
-// background: linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%); //circle
-// background: linear-gradient(180deg, #FFDE77 0%, #FFB32E 100%); // big circle
-
-// background: linear-gradient(0deg, #1E2229, #1E2229), // btn
-// linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%); btn outline
-// border: 3px solid;
-// border-image-source: linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%);
