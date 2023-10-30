@@ -41,7 +41,7 @@ const Sponsors = () => {
     { title: "DIAMOND PARTNER", img: Spidersilk },
   ];
   return (
-    <div className="relative">
+    <div className="relative z-20">
       <Container className="max-w-6xl py-20">
         <div className="flex flex-wrap justify-center gap-4">
           {data.map((item) => (
