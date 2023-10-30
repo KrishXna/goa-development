@@ -29,7 +29,7 @@ const FacebookIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
         height="23.7649"
         rx="11.8825"
         stroke="#1A1D23"
-        stroke-width="0.76661"
+        strokeWidth="0.76661"
       />
       <rect
         x="0.383305"
@@ -38,7 +38,7 @@ const FacebookIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
         height="23.7649"
         rx="11.8825"
         stroke="#F5BE3D"
-        stroke-width="0.76661"
+        strokeWidth="0.76661"
       />
     </svg>
   );

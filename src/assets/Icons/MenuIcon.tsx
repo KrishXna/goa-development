@@ -19,20 +19,20 @@ const MenuIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
       <path
         d="M38 19.5723L18 19.5723"
         stroke="#F5BE3D"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M38 10.5723L2 10.5723"
         stroke="#F5BE3D"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M37.77 2L12.3132 2"
         stroke="#F5BE3D"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
     </svg>
   );

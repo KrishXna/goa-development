@@ -15,14 +15,14 @@ const LinesRightIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (
       <path
         d="M90.542 26L29.2471 26"
         stroke="#F5BE3D"
-        stroke-width="7.22341"
-        stroke-linecap="round"
+        strokeWidth="7.22341"
+        strokeLinecap="round"
       />
       <path
         d="M91.0957 4L4.41482 4.00001"
         stroke="#F5BE3D"
-        stroke-width="7.22341"
-        stroke-linecap="round"
+        strokeWidth="7.22341"
+        strokeLinecap="round"
       />
     </svg>
   );
