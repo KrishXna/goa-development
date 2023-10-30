@@ -18,9 +18,9 @@ const Glimpse = () => {
         </div>
         {/* Slider */}
         <SwiperSlider />
-        <div className="flex justify-center items-center py-14">
+        {/* <div className="flex justify-center items-center py-14">
           <img src={Slider.src} alt="Group_img" />
-        </div>
+        </div> */}
         <div className="flex justify-center md:gap-6">
           <LinesRightIcon className="w-10" />
 
