@@ -22,7 +22,7 @@ const Hero = () => {
               <span className="text-white-100">SECURITY</span> CONFERENCE
             </div>
             <div className="flex flex-col gap-y-4 pr-20 mt-6 md:mt-0">
-              <p className="max-w-xs text-white-200/80">
+              <p className="max-w-xs text-white-100 lg:text-white-200/80">
                 Hurry! Go and grab your passes in early bird discount.
               </p>
               <div>
@@ -65,7 +65,7 @@ const Hero = () => {
         <div className="md:flex justify-between gap-y-4 ">
           <div className="max-w-md w-full md:w-1/2 flex flex-col gap-4">
             <h2 className="text-4xl font-medium text-white-100">Overview</h2>
-            <p className="text-md font-normal text-white-200/80">
+            <p className="text-md font-normal text-white-100 lg:text-white-200/80">
               BSides Goa is a community-driven effort that brings cybersecurity
               enthusiasts together. We organize independent BSides-approved
               events in Goa, fostering open discussions, demos, and
