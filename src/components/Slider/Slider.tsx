@@ -13,7 +13,6 @@ import Slider_img3 from "@/assets/Images/slider_img3.png";
 import Slider_img4 from "@/assets/Images/slider_img4.png";
 import Slider_img5 from "@/assets/Images/slider_img5.png";
 
-// import { useSwiper } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
 const Slider = () => {
@@ -29,7 +28,8 @@ const Slider = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          navigation
+          initialSlide={2}
+          navigation={true}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           grabCursor={true}
@@ -42,7 +42,6 @@ const Slider = () => {
             modifier: 1,
             slideShadows: true,
           }}
-          //   pagination={true}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
           //   onSwiper={(swiper) => console.log(swiper)}

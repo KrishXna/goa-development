@@ -13,9 +13,13 @@ const ImgCard = ({ src, name, title }: Props) => {
       <div className="max-w-[300px] p-6">
         <div className="text-center group">
           <div className="relative w-full">
-            <div className="w-full absolute inset-0 group-hover:bg-[#000]/40 group-hover:opacity-100 opacity-0">
-              <div className="absolute w-full bottom-0">
-                <div className="flex justify-between p-2">
+            <div className="w-full absolute inset-0 group-hover:bg-[#000]/50 group-hover:opacity-100 opacity-0">
+              <div className="w-full">
+                <p className="absolute top-4 text-sm text-white-100">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis quaerat repellat consequatur.
+                </p>
+                <div className="absolute bottom-0 w-full flex justify-between p-2">
                   <div>
                     <TwitterIcon />
                   </div>
