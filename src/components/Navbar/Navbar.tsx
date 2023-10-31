@@ -7,9 +7,53 @@ import BgCircuit from "@/assets/Icons/BgCircuit";
 const Navbar = () => {
   return (
     <div className="relative">
-      <div className="absolute z-0">
+      {/* <div className="bg-[#1A1D23] absolute top-0 right-0 z-50 border border-white-100 w-full md:w-1/4">
+        <div className="flex justify-end text-yellow-100 p-5 relative">
+          <span className="w-8 h-[3px] rounded-full bg-yellow-200 -rotate-45 absolute"></span>
+          <span className="w-10 h-[3px] rounded-full bg-yellow-200 rotate-45"></span>
+        </div>
+        <div className="px-5 py-4">
+          <div className="w-full h-full border border-white-100 flex items-center justify-between py-4">
+            <div className="w-8 h-[1px] bg-white-100"></div>
+            <div className="uppercase text-white-100 font-bold text-2xl px-4">
+              Home
+            </div>
+          </div>
+          <div className="w-full h-full border border-white-100 flex items-center justify-between py-4">
+            <div className="w-8 h-[1px] bg-white-100"></div>
+            <div className="uppercase text-white-100 font-bold text-2xl px-4">
+              About
+            </div>
+          </div>
+          <div className="w-full h-full border border-white-100 flex items-center justify-between py-4">
+            <div className="w-8 h-[1px] bg-white-100"></div>
+            <div className="uppercase text-white-100 font-bold text-2xl px-4">
+              Home
+            </div>
+          </div>
+          <div className="w-full h-full border border-white-100 flex items-center justify-between py-4">
+            <div className="w-8 h-[1px] bg-white-100"></div>
+            <div className="uppercase text-white-100 font-bold text-2xl px-4">
+              SCHEDULE
+            </div>
+          </div>
+          <div className="w-full h-full border border-white-100 flex items-center justify-between py-4">
+            <div className="w-8 h-[1px] bg-white-100"></div>
+            <div className="uppercase text-white-100 font-bold text-2xl px-4">
+              SPONSORS
+            </div>
+          </div>
+          <div className="w-full h-full border border-white-100 flex items-center justify-between py-4">
+            <div className="w-8 h-[1px] bg-white-100"></div>
+            <div className="uppercase text-white-100 font-bold text-2xl px-4">
+              Contact us
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* <div className="absolute z-0">
         <BgCircuit />
-      </div>
+      </div> */}
       <Container className="relative z-20">
         <div className="flex justify-between items-center py-2 border-b border-yellow-100">
           <div>

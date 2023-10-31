@@ -14,12 +14,6 @@ export default function Home() {
         <Sponsors />
         <Glimpse />
       </div>
-      {/* <div className="relative overflow-hidden">
-        <BgCircleIcon className="absolute top-0" />
-        <Speakers />
-        <Glimpse />
-        <Sponsors />
-      </div> */}
     </>
   );
 }
