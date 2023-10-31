@@ -4,6 +4,7 @@ import PeopleMetting from "@/assets/Images/bsides-display-logo.png";
 import Container from "@/components/Container";
 import ButtonBackground from "@/assets/Images/button_frame.png";
 import { ArrowIcon } from "@/assets/Icons";
+
 // import { Button } from "../Button";
 const Hero = () => {
   return (
