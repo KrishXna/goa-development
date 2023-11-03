@@ -26,7 +26,7 @@ const Navbar = () => {
               <span className="w-10 h-[3px] rounded-full bg-yellow-200 rotate-45"></span>
             </div>
             <div className="px-5 py-4">
-              <div className="flex">
+              <div className="flex py-4">
                 <div className="uppercase text-white-100 font-bold text-2xl px-4 w-full">
                   <ul className="flex flex-col gap-4 justify-end items-end">
                     <li className="flex items-center gap-4">
@@ -40,7 +40,7 @@ const Navbar = () => {
                       <span className="">01</span>
                     </li>
                     <li className="flex items-center gap-4">
-                      <a href="/schedule">Schedule</a>
+                      <a href="/mentors">Mentors</a>
                       <span className="w-20 border border-white-100 rotate-"></span>
                       <span className="">02</span>
                     </li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                       <span className="">04</span>
                     </li>
                     <li className="flex items-center gap-4">
-                      <a href="#">Contact us</a>
+                      <a href="/reviewpanel">Review Panel</a>
                       <span className="w-20 border border-white-100 rotate-"></span>
                       <span className="">05</span>
                     </li>
@@ -80,7 +80,9 @@ const Navbar = () => {
         <Container className="relative z-20">
           <div className="flex justify-between items-center py-2 border-b border-yellow-100">
             <div>
-              <Image src={Logo} alt="Besides_Goa_Logo" className="w-40" />
+              <a href="/">
+                <Image src={Logo} alt="Besides_Goa_Logo" className="w-40" />
+              </a>
             </div>
             <div className="">
               <div className="flex gap-4 items-center justify-center">
@@ -91,13 +93,15 @@ const Navbar = () => {
                         <a href="/about">About</a>
                       </li>
                       <li>
-                        <a href="#">Schedule</a>
+                        {/* <a href="#">Schedule</a> */}
+                        <a href="/mentors">Mentors</a>
                       </li>
                       <li>
                         <a href="/sponsors">Sponsors</a>
                       </li>
                       <li>
-                        <a href="#">Contact Us</a>
+                        {/* <a href="#">Contact Us</a> */}
+                        <a href="/reviewpanel">Review Panel</a>
                       </li>
                       <li className="border border-white-" />
                     </ul>

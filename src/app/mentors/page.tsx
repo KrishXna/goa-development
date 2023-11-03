@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/core-team.png";
+import AboutImg from "@/assets/Images/speakers.png";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 import Speakers from "@/components/Speakers/Speakers";

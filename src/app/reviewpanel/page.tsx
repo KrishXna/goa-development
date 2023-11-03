@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/core-team.png";
+import AboutImg from "@/assets/Images/cfp-review-panel.png";
 import Banner from "@/components/Banner/Banner";
 import jacobSmith from "@/assets/Images/jacob-smith.png";
 import Adrian from "@/assets/Images/adrian.png";
