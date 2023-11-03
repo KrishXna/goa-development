@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="relative">
         {showNav ? (
           <div
-            className={`bg-[#1A1D23] z-50 border absolute top-6 ${
+            className={`bg-[#1A1D23] z-50 border absolute right-0 w-full md:w-1/2 top-6 ${
               showNav ? "" : "right-[0px]"
             } border-white-100 w-1/2`}
           >
@@ -87,10 +87,18 @@ const Navbar = () => {
                 <div className="flex gap-4">
                   <div className="hidden md:block">
                     <ul className="flex gap-x-8 text-white-200/80">
-                      <li>About</li>
-                      <li>Schedule</li>
-                      <li>Sponsors</li>
-                      <li>Contact Us</li>
+                      <li>
+                        <a href="/about">About</a>
+                      </li>
+                      <li>
+                        <a href="#">Schedule</a>
+                      </li>
+                      <li>
+                        <a href="/sponsors">Sponsors</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact Us</a>
+                      </li>
                       <li className="border border-white-" />
                     </ul>
                   </div>
