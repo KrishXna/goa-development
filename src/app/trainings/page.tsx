@@ -14,15 +14,15 @@ const page = () => {
           <p className="text-white-100/80 text-xl font-normal">
             Elevate Your Security Expertise at BSides Goa Training Courses!
             Unlock your potential and sharpen your security skills at BSides
-            Goa's premier training sessions. From [dates], immerse yourself in
-            intensive 2-day and 3-day training experiences designed to empower
-            you with cutting-edge knowledge and hands-on practice. Navigate the
-            dynamic landscape of cybersecurity with our expert trainers who
-            bring real-world insights to the forefront. Whether you're a
-            seasoned professional or just starting your security journey, these
-            unique training opportunities will equip you with the tools and
-            techniques you need to stay ahead in the ever-evolving world of
-            cybersecurity. Secure your spot today and be part of a
+            Goa&apos;s premier training sessions. From [dates], immerse yourself
+            in intensive 2-day and 3-day training experiences designed to
+            empower you with cutting-edge knowledge and hands-on practice.
+            Navigate the dynamic landscape of cybersecurity with our expert
+            trainers who bring real-world insights to the forefront. Whether
+            you&apos;re a seasoned professional or just starting your security
+            journey, these unique training opportunities will equip you with the
+            tools and techniques you need to stay ahead in the ever-evolving
+            world of cybersecurity. Secure your spot today and be part of a
             transformative learning experience at BSides Goa!
           </p>
           <h2 className="text-white-100 font-bold text-3xl">COURSE CONTENT</h2>
@@ -69,8 +69,8 @@ const page = () => {
               registration.
             </li>
             <li className="list-disc">
-              It's important to note that the training course fee does not grant
-              participants access to the leading conference. Separate
+              It&apos;s important to note that the training course fee does not
+              grant participants access to the leading conference. Separate
               registration is required for conference attendance.
             </li>
           </ul>

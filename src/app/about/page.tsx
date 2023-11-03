@@ -39,10 +39,10 @@ const page = () => {
               As the digital landscape evolves and security challenges become
               more sophisticated, the imperative to safeguard network devices
               and digital assets grows stronger. In the ever-present context of
-              the IT world, "security" is a paramount consideration. Our
-              conferences and gatherings provide a platform where individuals,
-              organizations, and experts convene to share insights, exchange
-              perspectives, and learn collectively.
+              the IT world, &quot;security&quot; is a paramount consideration.
+              Our conferences and gatherings provide a platform where
+              individuals, organizations, and experts convene to share insights,
+              exchange perspectives, and learn collectively.
             </p>
           </div>
           <div className="flex flex-col gap-3">
@@ -61,7 +61,7 @@ const page = () => {
           <p className="text-white-100/80 text-xl font-normal">
             Join us at BSides Goa to be part of a vibrant community that shapes
             the future of cybersecurity knowledge and collaboration. Together,
-            we're building a secure digital world through meaningful
+            we&apos;re building a secure digital world through meaningful
             conversations and shared insights.
           </p>
         </div>
