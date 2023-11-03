@@ -4,69 +4,81 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import Logo from "@/assets/Images/logo.png";
 import BgCircuit from "@/assets/Icons/BgCircuit";
+import { DownArrowIcon } from "@/assets/Icons";
+import { NavMenuItems } from "../NavMenuItems/NavMenuItems";
+
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const [openMenuIndex, setOpenMenuIndex] = useState(-1);
+
   const handleNavbar = () => {
     setShowNav((prev) => !prev);
   };
+
+  const handleOpenMenu = (index: number) => {
+    setOpenMenuIndex((prevIndex) => (prevIndex === index ? -1 : index));
+  };
+
   return (
     <>
       <div className="relative">
         {showNav ? (
           <div
-            className={`bg-[#1A1D23] z-50 border absolute right-0 w-full md:w-1/2 top-6 ${
+            className={`bg-[#1A1D23] z-50 border absolute right-0 w-full md:w-1/2 ${
               showNav ? "" : "right-[0px]"
             } border-white-100 w-1/2`}
           >
             <div
-              className="flex justify-end text-yellow-100 p-5 relative"
-              onClick={() => setShowNav(false)}
+              className="flex justify-end text-yellow-100 py-10 px-5 relative"
+              onClick={() => {
+                setShowNav(false);
+                setOpenMenuIndex(-1);
+              }}
             >
               <span className="w-8 h-[3px] rounded-full bg-yellow-200 -rotate-45 absolute"></span>
               <span className="w-10 h-[3px] rounded-full bg-yellow-200 rotate-45"></span>
             </div>
-            <div className="px-5 py-4">
-              <div className="flex py-4">
-                <div className="uppercase text-white-100 font-bold text-2xl px-4 w-full">
-                  <ul className="flex flex-col gap-4 justify-end items-end">
-                    <li className="flex items-center gap-4">
-                      <a href="/">Home</a>
-                      <span className="w-20 border border-white-100 rotate-"></span>
-                      <span className="">00</span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                      <a href="/about">About</a>
-                      <span className="w-20 border border-white-100 rotate-"></span>
-                      <span className="">01</span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                      <a href="/mentors">Mentors</a>
-                      <span className="w-20 border border-white-100 rotate-"></span>
-                      <span className="">02</span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                      <a
-                        href="
-                      sponsors"
-                      >
-                        Sponsors
-                      </a>
-                      <span className="w-20 border border-white-100 rotate-"></span>
-                      <span className="">03</span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                      <a href="#">Register</a>
-                      <span className="w-20 border border-white-100 rotate-"></span>
-                      <span className="">04</span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                      <a href="/reviewpanel">Review Panel</a>
-                      <span className="w-20 border border-white-100 rotate-"></span>
-                      <span className="">05</span>
-                    </li>
-                  </ul>
+
+            <div className="w-full text-white-100 p-6 flex flex-col gap-6">
+              {NavMenuItems.map((navMenu, index) => (
+                <div className="flex gap-4 justify-end w-full" key={index}>
+                  <div className="text-right flex flex-col gap-2">
+                    <div className="flex justify-center items-center gap-2">
+                      <div onClick={() => handleOpenMenu(index)}>
+                        {navMenu?.children && navMenu.children.length > 0 && (
+                          <div className="border p-1">
+                            <DownArrowIcon className="w-4" />
+                          </div>
+                        )}
+                      </div>
+                      <div className="text-white-100 font-bold text-2xl uppercase">
+                        <a href={navMenu.slug}>{navMenu.name}</a>
+                      </div>
+                    </div>
+
+                    {openMenuIndex === index && (
+                      <ul className="text-white-100 font-bold text-xl flex flex-col gap-2">
+                        {navMenu?.children &&
+                          navMenu?.children.length > 0 &&
+                          navMenu?.children.map((child, childIndex) => (
+                            <div
+                              className="flex justify-end gap-2"
+                              key={childIndex}
+                            >
+                              <div className="">
+                                <li>
+                                  <a href={child.slug}>{child.name}</a>
+                                </li>
+                              </div>
+                            </div>
+                          ))}
+                      </ul>
+                    )}
+                  </div>
+                  <div className="w-20 h-0 border"></div>
+                  <div className="font-bold text-2xl">0{index}</div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         ) : (
