@@ -25,28 +25,48 @@ const Footer = () => {
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
-                  <li className="text-white-100 text-xl">About</li>
-                  <li>BSides Goa</li>
-                  <li>Core Team</li>
-                  <li>Volunteers</li>
-                  <li>Mentors</li>
+                  <li className="text-white-100 text-xl">
+                    <a href="/about">About</a>
+                  </li>
+                  <li>
+                    <a href="/">BSides Goa</a>
+                  </li>
+                  <li>
+                    <a href="/coreteam">Core Team</a>
+                  </li>
+                  <li>
+                    <a href="/volunteer">Volunteers</a>
+                  </li>
+                  <li>
+                    <a href="/mentors">Mentors</a>
+                  </li>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                   <li className="text-white-100 text-xl">Schedule</li>
-                  <li>Trainings</li>
-                  <li>Speakers</li>
-                  <li>CTF</li>
+                  <li>
+                    <a href="/trainings">Trainings</a>
+                  </li>
+                  <li>
+                    <a href="#">Speakers</a>
+                  </li>
+                  <li>
+                    <a href="/ctf">CTF</a>
+                  </li>
                   <li>Live Hacking Event</li>
                   <li>Career Carnival</li>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
-                  <li className="text-white-100 text-xl">Sponsors</li>
+                  <li className="text-white-100 text-xl">
+                    <a href="/sponsors">Sponsors</a>
+                  </li>
                   <li>Community Partner</li>
-                  <li className="font-bold">Register</li>
+                  <li className="font-bold">
+                    <a href="/register">Register</a>
+                  </li>
                   <li>Community Partner</li>
                   <li className="font-bold">Contact Us</li>
                   <li>
@@ -57,7 +77,9 @@ const Footer = () => {
             </div>
             <div className="flex flex-col md:flex-row justify-between items-center py-4">
               <div>
-                <img src={Logo.src} alt="Logo" className="w-40" />
+                <a href="/">
+                  <img src={Logo.src} alt="Logo" className="w-40" />
+                </a>
               </div>
               <div>
                 <p className="text-sm lg:text-lg font-normal text-white-200/90">

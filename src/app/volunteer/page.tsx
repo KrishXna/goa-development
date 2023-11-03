@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/core-team.png";
+import VolunteersImg from "@/assets/Images/volunteers.png";
 import Banner from "@/components/Banner/Banner";
 import { Usercard } from "@/components/Card";
 import Adrian from "@/assets/Images/adrian.png";
@@ -49,7 +49,7 @@ const page = () => {
   return (
     <>
       <Container className="relative z-20">
-        <Banner text="" image={AboutImg.src} />;
+        <Banner text="" image={VolunteersImg.src} />;
         <div className="flex flex-wrap justify-center pb-20 max-w-5xl mx-auto">
           {data.map((item) => (
             <Usercard

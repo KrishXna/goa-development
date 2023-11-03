@@ -131,7 +131,7 @@ const Sponsors = () => {
         {/* 4 */}
         <div className="flex flex-col gap-2">
           <div>
-            <span className="text-white-100">SILVER</span>
+            <span className="text-white-100">SILVER </span>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <div>
@@ -154,7 +154,7 @@ const Sponsors = () => {
         {/* 5 */}
         <div className="flex flex-col gap-2">
           <div>
-            <span className="text-white-100">BUG BOUNTY</span>
+            <span className="text-white-100">BUG BOUNTY </span>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <div>
@@ -168,7 +168,7 @@ const Sponsors = () => {
         {/* 6 */}
         <div className="flex flex-col gap-2">
           <div>
-            <span className="text-white-100">BRONZE</span>
+            <span className="text-white-100">BRONZE </span>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <div>
@@ -191,7 +191,7 @@ const Sponsors = () => {
         {/* 7 */}
         <div className="flex flex-col gap-2">
           <div>
-            <span className="text-white-100">SPECIAL</span>
+            <span className="text-white-100">SPECIAL </span>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <div>
@@ -214,7 +214,7 @@ const Sponsors = () => {
         {/* 8 */}
         <div className="flex flex-col gap-2">
           <div>
-            <span className="text-white-100">GOODIE BAG</span>
+            <span className="text-white-100">GOODIE BAG </span>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <div>
@@ -228,7 +228,7 @@ const Sponsors = () => {
         {/* 9 */}
         <div className="flex flex-col gap-2">
           <div>
-            <span className="text-white-100">GOODIE BAG</span>
+            <span className="text-white-100">GOODIE BAG </span>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <div>

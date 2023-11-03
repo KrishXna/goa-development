@@ -1,14 +1,13 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/core-team.png";
-import Sponsors from "@/components/Sponsors/Sponsors";
+import VillagesImg from "@/assets/Images/villages.png";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
   return (
     <>
-      <Container>
-        <Banner text="" image={AboutImg.src} />
+      <Container className="relative z-20 pb-20">
+        <Banner text="" image={VillagesImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Villages</h2>
           <p className="text-white-100/80 text-xl font-normal">
@@ -64,7 +63,6 @@ const page = () => {
             in this dynamic journey of exploration and growth!
           </p>
         </div>
-        <Sponsors />
       </Container>
     </>
   );

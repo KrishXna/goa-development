@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/core-team.png";
+import TrainingsImg from "@/assets/Images/trainings.png";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
@@ -8,7 +8,7 @@ const page = () => {
   return (
     <>
       <Container>
-        <Banner text="" image={AboutImg.src} />
+        <Banner text="" image={TrainingsImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Trainings</h2>
           <p className="text-white-100/80 text-xl font-normal">
