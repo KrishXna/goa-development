@@ -11,8 +11,8 @@ export default function Home() {
       <div className="relative overflow-hidden">
         <BgCircleIcon className="absolute top-0" />
         <Speakers />
-        <Sponsors />
         <Glimpse />
+        <Sponsors />
       </div>
     </>
   );

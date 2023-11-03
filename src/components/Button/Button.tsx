@@ -50,14 +50,14 @@ export const Button = ({
     case "colored":
       const colored = (component: React.ReactNode) => (
         <div
-          className="inline-flex gap-2 justify-center items-center text-sm font-normal rounded-md"
+          className="inline-flex justify-center items-center text-sm font-normal rounded-md"
           style={{
             background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
-            padding: `${borderSize ? borderSize : 2}px`,
+            padding: `${borderSize ? borderSize : 4}px`,
           }}
         >
           {component}
-          <ArrowIcon className="w-4" />
+          <ArrowIcon className="w-4 mr-4" />
         </div>
       );
 

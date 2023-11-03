@@ -9,6 +9,8 @@ import LinkedinIcon from "./LinkedinIcon";
 import TwitterIcon from "./TwitterIcon";
 import LinesLeftIcon from "./LinesLeftIcon";
 import LinesRightIcon from "./LinesRightIcon";
+import DownArrowIcon from "./DownArrowIcon";
+import CloseArrowIcon from "./CloseArrowIcon";
 
 export {
   MenuIcon,
@@ -22,4 +24,6 @@ export {
   InstagramIcon,
   LinesLeftIcon,
   LinesRightIcon,
+  DownArrowIcon,
+  CloseArrowIcon,
 };

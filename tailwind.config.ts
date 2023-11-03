@@ -19,6 +19,9 @@ const config: Config = {
         100: "#FFFFFF",
         200: "#EEF0F2",
       },
+      gray: {
+        100: "#32323A",
+      },
     },
     extend: {
       animation: {

@@ -4,6 +4,7 @@ import PeopleMetting from "@/assets/Images/bsides-display-logo.png";
 import Container from "@/components/Container";
 import ButtonBackground from "@/assets/Images/button_frame.png";
 import { ArrowIcon } from "@/assets/Icons";
+import Timer from "../Timer/Timer";
 
 // import { Button } from "../Button";
 const Hero = () => {
@@ -87,7 +88,7 @@ const Hero = () => {
         className="w-full mt-16 lg:bg-cover relative z-20"
         style={{ backgroundImage: `url(${ButtonBackground.src})` }}
       >
-        <Container className="py-10">
+        {/* <Container className="py-10">
           <div className="md:flex flex-wrap justify-center items-center gap-10">
             <button
               className="px-6 py-3  text-base font-normal rounded-md"
@@ -99,15 +100,13 @@ const Hero = () => {
             </button>
             <button
               className="mt-4 md:mt-0 px-6 py-2 border-2 rounded-md border-yellow-200 text-white-100 font-normal hover:bg-yellow-200 hover:text-[#000]"
-              // style={{
-              //   background:
-              //     "linear-gradient(0deg, #1E2229, #1E2229),linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
-              // }}
+             
             >
               SHOWCASE YOUR BRAND
             </button>
           </div>
-        </Container>
+        </Container> */}
+        <Timer />
       </div>
     </>
   );
