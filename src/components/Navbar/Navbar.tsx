@@ -41,8 +41,13 @@ const Navbar = () => {
 
             <div className="w-full text-white-100 p-6 flex flex-col gap-6">
               {NavMenuItems.map((navMenu, index) => (
-                <div className="flex gap-4 justify-end w-full" key={index}>
-                  <div className="text-right flex flex-col gap-2">
+                <div
+                  className={`flex gap-4 justify-end ${
+                    openMenuIndex === 1 ? "items-center" : "items-start"
+                  } w-full`}
+                  key={index}
+                >
+                  <div className="text-righ flex flex-col gap-2">
                     <div className="flex justify-center items-center gap-2">
                       <div onClick={() => handleOpenMenu(index)}>
                         {navMenu?.children && navMenu.children.length > 0 && (
@@ -54,10 +59,12 @@ const Navbar = () => {
                       <div className="text-white-100 font-bold text-2xl uppercase">
                         <a href={navMenu.slug}>{navMenu.name}</a>
                       </div>
+                      <div className="w-20 h-0 border"></div>
+                      <div className="font-bold text-2xl">0{index}</div>
                     </div>
 
                     {openMenuIndex === index && (
-                      <ul className="text-white-100 font-bold text-xl flex flex-col gap-2">
+                      <ul className="relative -left-28 text-white-100 font-bold text-xl flex flex-col items-end gap-2">
                         {navMenu?.children &&
                           navMenu?.children.length > 0 &&
                           navMenu?.children.map((child, childIndex) => (
@@ -65,7 +72,7 @@ const Navbar = () => {
                               className="flex justify-end gap-2"
                               key={childIndex}
                             >
-                              <div className="">
+                              <div>
                                 <li>
                                   <a href={child.slug}>{child.name}</a>
                                 </li>
@@ -75,8 +82,8 @@ const Navbar = () => {
                       </ul>
                     )}
                   </div>
-                  <div className="w-20 h-0 border"></div>
-                  <div className="font-bold text-2xl">0{index}</div>
+                  {/* <div className="w-20 h-0 border"></div>
+                  <div className="font-bold text-2xl">0{index}</div> */}
                 </div>
               ))}
             </div>
