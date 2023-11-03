@@ -112,7 +112,7 @@ const page = () => {
   ];
   return (
     <>
-      <Container>
+      <Container className="relative z-20">
         <Banner text="" image={AboutImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Review Panel </h2>
