@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-montserrat bg-[#1A1D23]">
         <Navbar />
-        {/* <div className={`${isNavbarOpen ? "blur-sm" : ""}`}> */}
         {children}
         <Footer />
       </body>

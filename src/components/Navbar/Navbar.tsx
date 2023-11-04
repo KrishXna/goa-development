@@ -14,9 +14,9 @@ const Navbar = () => {
 
   useEffect(() => {
     // if (showNav == true) {
-    //   document.body.classList.add("blur");
+    //   document.body.style.overflow = "hidden";
     // } else {
-    //   document.body.classList.remove("blur");
+    //   document.body.style.overflow = "unset";
     // }
   });
   const pathname = usePathname();
@@ -31,6 +31,7 @@ const Navbar = () => {
 
   return (
     <>
+      {showNav && <div className="fixed inset-0 z-[25] backdrop-blur-md" />}
       <div className={`${showNav ? "" : "overflow-hidden"}`}>
         <div
           className={`${
