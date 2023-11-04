@@ -71,7 +71,7 @@ const Navbar = () => {
                               key={childIndex}
                             >
                               <div>
-                                <li>
+                                <li className="relative after:absolute after:w-10 after:h-0 after:top-[15px] after:border after:border-white-100 after:-right-12">
                                   <a href={child.slug}>{child.name}</a>
                                 </li>
                               </div>
