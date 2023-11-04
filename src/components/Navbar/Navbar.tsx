@@ -30,9 +30,9 @@ const Navbar = () => {
   };
 
   return (
-    <>
+    <div>
       {showNav && <div className="fixed inset-0 z-[25] backdrop-blur-md" />}
-      <div className={`${showNav ? "" : "overflow-hidden"}`}>
+      <div className={`${showNav ? "" : "overflow-hidden"} relative`}>
         <div
           className={`${
             showNav ? "translate-x-0 translate-y-auto" : "translate-x-full"
@@ -158,7 +158,7 @@ const Navbar = () => {
           </div>
         </Container>
       </div>
-    </>
+    </div>
   );
 };
 
