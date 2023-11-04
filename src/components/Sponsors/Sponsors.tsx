@@ -78,7 +78,7 @@ const Sponsors = () => {
 
     <Container className="relative z-20">
       <div className="font-bold text-3xl mx-auto w-full text-center flex flex-col gap-10 py-10">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">DIAMOND </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -92,7 +92,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 2 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">PLATINUM </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -109,7 +109,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 3 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">GOLD </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -129,7 +129,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 4 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">SILVER </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -152,7 +152,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 5 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">BUG BOUNTY </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -166,7 +166,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 6 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">BRONZE </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -189,7 +189,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 7 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">SPECIAL </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -212,7 +212,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 8 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">GOODIE BAG </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -226,7 +226,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 9 */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">GOODIE BAG </span>
             <span className="text-yellow-200">SPONSORS</span>

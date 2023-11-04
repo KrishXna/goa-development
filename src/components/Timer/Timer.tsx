@@ -44,8 +44,8 @@ const Timer = () => {
   }, []);
 
   return (
-    <Container className="py-10">
-      <div className="flex flex-wrap items-center justify-center gap-10 ">
+    <Container fluid className="py-10">
+      <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-10">
         <div
           className="inline-block px-2 py-2 rounded-2xl"
           style={{
@@ -55,13 +55,15 @@ const Timer = () => {
           }}
         >
           <div className="flex flex-col justify-center items-center h-full">
-            <h2 className="text-8xl font-medium text-white-100">{date.days}</h2>
-            <p className="text-yellow-200">[Days]</p>
+            <h2 className="text-2xl md:text-4xl lg:text-8xl font-medium text-white-100">
+              {date.days}
+            </h2>
+            <p className="text-yellow-200 text-sm">[Days]</p>
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="w-2 h-2 bg-white-100"></div>
-          <div className="w-2 h-2 bg-white-100"></div>
+          <div className="w-1 h-1 md:w-2 md:h-2 bg-white-100"></div>
+          <div className="w-1 h-1 md:w-2 md:h-2 bg-white-100"></div>
         </div>
         <div
           className="inline-block px-2 py-2 rounded-2xl"
@@ -72,15 +74,15 @@ const Timer = () => {
           }}
         >
           <div className="flex flex-col justify-center items-center h-full">
-            <h2 className="text-8xl font-medium text-white-100">
+            <h2 className="text-2xl md:text-4xl lg:text-8xl font-medium text-white-100">
               {date.hours}
             </h2>
-            <p className="text-yellow-200">[Hours]</p>
+            <p className="text-yellow-200 text-sm">[Hours]</p>
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="w-2 h-2 bg-white-100"></div>
-          <div className="w-2 h-2 bg-white-100"></div>
+          <div className="w-1 h-1 md:w-2 md:h-2 bg-white-100"></div>
+          <div className="w-1 h-1 md:w-2 md:h-2 bg-white-100"></div>
         </div>
         <div
           className="inline-block px-2 py-2 rounded-2xl"
@@ -91,15 +93,15 @@ const Timer = () => {
           }}
         >
           <div className="flex flex-col justify-center items-center h-full">
-            <h2 className="text-8xl font-medium text-white-100">
+            <h2 className="text-2xl md:text-4xl lg:text-8xl  font-medium text-white-100">
               {date.minutes}
             </h2>
-            <p className="text-yellow-200">[Minutes]</p>
+            <p className="text-yellow-200 text-sm">[Min]</p>
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="w-2 h-2 bg-white-100"></div>
-          <div className="w-2 h-2 bg-white-100"></div>
+          <div className="w-1 h-1 md:w-2 md:h-2 bg-white-100"></div>
+          <div className="w-1 h-1 md:w-2 md:h-2 bg-white-100"></div>
         </div>
         <div
           className="inline-block px-2 py-2 rounded-2xl"
@@ -110,10 +112,10 @@ const Timer = () => {
           }}
         >
           <div className="flex flex-col justify-center items-center h-full">
-            <h2 className="text-8xl font-medium text-white-100">
+            <h2 className="text-2xl md:text-4xl lg:text-8xl font-medium text-white-100">
               {date.seconds}
             </h2>
-            <p className="text-yellow-200">[Seconds]</p>
+            <p className="text-yellow-200 text-sm">[Sec]</p>
           </div>
         </div>
       </div>

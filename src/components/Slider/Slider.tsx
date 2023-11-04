@@ -21,11 +21,12 @@ const Slider = () => {
           spaceBetween={0}
           slidesPerView={3}
           loop={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          initialSlide={2}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
+          autoplay={true}
+          // initialSlide={2}
           navigation={true}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
@@ -41,8 +42,6 @@ const Slider = () => {
           }}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
-          //   onSwiper={(swiper) => console.log(swiper)}
-          //   onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
             <div className="bg-white-100 p-4">
