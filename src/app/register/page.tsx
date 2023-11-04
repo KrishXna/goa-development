@@ -8,7 +8,7 @@ import EventAccordion from "@/components/EventAccordion/EventAccordion";
 const page = () => {
   return (
     <>
-      <Container>
+      <Container glowEffect>
         <Banner text="" image={BannerImg.src} />
 
         <div className="relative overflow-x-auto flex flex-col gap-6">

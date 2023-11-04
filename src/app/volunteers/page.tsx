@@ -48,7 +48,7 @@ const page = () => {
   ];
   return (
     <>
-      <Container className="relative z-20">
+      <Container glowEffect className="relative z-20">
         <Banner text="" image={VolunteersImg.src} />;
         <div className="flex flex-wrap justify-center pb-20 max-w-5xl mx-auto">
           {data.map((item) => (

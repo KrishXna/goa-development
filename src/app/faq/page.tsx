@@ -41,7 +41,7 @@ const page = () => {
   return (
     <div className="w-full overflow-hidden relative">
       <BgCircleIcon className="absolute z-0" />
-      <Container className="relative z-20 lg:pb-10">
+      <Container glowEffect className="relative z-20 lg:pb-10">
         <Banner text="" image={AboutImg.src} />
         <div className="flex flex-col gap-8">
           <div>

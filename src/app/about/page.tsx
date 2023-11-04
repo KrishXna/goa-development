@@ -7,7 +7,7 @@ import Banner from "@/components/Banner/Banner";
 const page = () => {
   return (
     <>
-      <Container>
+      <Container glowEffect>
         <Banner text="" image={AboutImg.src} />
         <div className="flex flex-col gap-8">
           <p className="text-white-100/80 text-xl font-normal">

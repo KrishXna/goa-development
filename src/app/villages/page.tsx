@@ -6,7 +6,7 @@ import Banner from "@/components/Banner/Banner";
 const page = () => {
   return (
     <>
-      <Container className="relative z-20 pb-20">
+      <Container glowEffect className="relative z-20 pb-20">
         <Banner text="" image={VillagesImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Villages</h2>

@@ -86,7 +86,7 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={SecureNexus.src} alt="Secure" />
+                <img src={SecureNexus.src} alt="Secure" className="h-20" />
               </div>
             </div>
           </div>
@@ -100,10 +100,10 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Dnif.src} alt="Secure" />
+                <img src={Dnif.src} alt="Secure" className="h-16" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Armorcode.src} alt="Secure" />
+                <img src={Armorcode.src} alt="Secure" className="h-16" />
               </div>
             </div>
           </div>
@@ -117,13 +117,13 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Enciipheres.src} alt="Secure" />
+                <img src={Enciipheres.src} alt="Secure" className="w-40" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Appsecco.src} alt="Secure" />
+                <img src={Appsecco.src} alt="Secure" className="w-40" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Cobalt.src} alt="Secure" />
+                <img src={Cobalt.src} alt="Secure" className="w-40" />
               </div>
             </div>
           </div>
@@ -137,16 +137,16 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={appsecure.src} alt="Secure" />
+                <img src={appsecure.src} alt="Secure" className="h-14" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Bugcrowd.src} alt="Secure" />
+                <img src={Bugcrowd.src} alt="Secure" className="h-14" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Appsec.src} alt="Secure" />
+                <img src={Appsec.src} alt="Secure" className="h-14" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Levo.src} alt="Secure" />
+                <img src={Levo.src} alt="Secure" className="h-14" />
               </div>
             </div>
           </div>
@@ -159,8 +159,8 @@ const Sponsors = () => {
           </div>
           <div>
             <div className="flex flex-wrap justify-center gap-10">
-              <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Riskprofiler.src} alt="Secure" />
+              <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-2">
+                <img src={Riskprofiler.src} alt="Secure" className="h-12" />
               </div>
             </div>
           </div>
@@ -174,16 +174,16 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={compliancecow.src} alt="Secure" />
+                <img src={compliancecow.src} alt="Secure" className="h-12" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={SecOps.src} alt="Secure" />
+                <img src={SecOps.src} alt="Secure" className="h-12" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={bugdiscover.src} alt="Secure" />
+                <img src={bugdiscover.src} alt="Secure" className="h-12" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={psyo.src} alt="Secure" />
+                <img src={psyo.src} alt="Secure" className="h-12" />
               </div>
             </div>
           </div>
@@ -197,16 +197,16 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Akto.src} alt="Secure" />
+                <img src={Akto.src} alt="Secure" className="h-12" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Conveyor.src} alt="Secure" />
+                <img src={Conveyor.src} alt="Secure" className="h-12" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Pentera.src} alt="Secure" />
+                <img src={Pentera.src} alt="Secure" className="h-12" />
               </div>
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Cybersmithsecure.src} alt="Secure" />
+                <img src={Cybersmithsecure.src} alt="Secure" className="h-12" />
               </div>
             </div>
           </div>
@@ -220,7 +220,7 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={Cloudsek.src} alt="Secure" />
+                <img src={Cloudsek.src} alt="Secure" className="h-10" />
               </div>
             </div>
           </div>
@@ -234,7 +234,7 @@ const Sponsors = () => {
           <div>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="bg-white-100 flex justify-center items-center rounded-md px-4 py-1">
-                <img src={infosec.src} alt="Secure" />
+                <img src={infosec.src} alt="Secure" className="h-10" />
               </div>
             </div>
           </div>

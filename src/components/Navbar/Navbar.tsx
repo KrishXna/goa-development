@@ -24,9 +24,7 @@ const Navbar = () => {
       <div className="relative">
         {showNav ? (
           <div
-            className={`bg-[#1A1D23] z-50 border absolute right-0 w-full md:w-1/2 ${
-              showNav ? "" : "right-[0px]"
-            } border-white-100 w-1/2`}
+            className={`bg-[#1A1D23] border border-white-100 z-50 absolute right-0 w-full md:w-1/2 lg:w-1/3`}
           >
             <div
               className="flex justify-end text-yellow-100 py-10 px-5 relative"
@@ -39,7 +37,7 @@ const Navbar = () => {
               <span className="w-10 h-[3px] rounded-full bg-yellow-200 rotate-45"></span>
             </div>
 
-            <div className="w-full text-white-100 p-6 pb-10 flex flex-col gap-6">
+            <div className="w-full text-white-100 p-2 sm:p-6 pb-10 flex flex-col gap-6">
               {NavMenuItems.map((navMenu, index) => (
                 <div
                   className={`flex gap-4 justify-end ${
@@ -82,8 +80,6 @@ const Navbar = () => {
                       </ul>
                     )}
                   </div>
-                  {/* <div className="w-20 h-0 border"></div>
-                  <div className="font-bold text-2xl">0{index}</div> */}
                 </div>
               ))}
             </div>
@@ -97,17 +93,23 @@ const Navbar = () => {
       </div>
       <div>
         <Container className="relative z-20">
+          <div
+            className="absolute z-0 right-0 top-0 w-60 h-60 rounded-full overflow-hidden blur-3xl opacity-40 pointer-events-none"
+            style={{
+              background: "linear-gradient(180deg, #FFDE77 0%, #FFB32E 100%)",
+            }}
+          ></div>
           <div className="flex justify-between items-center py-2 border-b border-yellow-100">
             <div>
               <a href="/">
                 <Image src={Logo} alt="Besides_Goa_Logo" className="w-40" />
               </a>
             </div>
-            <div className="">
+            <div>
               <div className="flex gap-4 items-center justify-center">
                 <div className="flex gap-4">
                   <div className="hidden md:block">
-                    <ul className="flex gap-x-8 text-white-200/80">
+                    <ul className="flex gap-x-8 text-white-200">
                       <li>
                         <a href="/about">About</a>
                       </li>
