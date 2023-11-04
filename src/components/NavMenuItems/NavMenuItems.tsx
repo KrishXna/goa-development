@@ -28,7 +28,7 @@ export const NavMenuItems: NavMenu[] = [
     name: "SCHEDULE",
     slug: "/schedule",
     children: [
-      { name: "Trainings", slug: "" },
+      { name: "Trainings", slug: "trainings" },
       { name: "Speakers", slug: "speakers" },
       { name: "CTF", slug: "ctf" },
       { name: "Live Event Hacking", slug: "" },

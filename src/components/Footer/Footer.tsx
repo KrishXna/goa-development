@@ -3,13 +3,20 @@ import Container from "@/components/Container";
 import SocialIcons from "../SocialIcons/SocialIcons";
 import Logo from "@/assets/Images/logo.png";
 import { BgCircuitRight } from "@/assets/Icons";
-const Footer = () => {
+
+type Props = {
+  className?: string;
+};
+
+const Footer = ({ className }: Props) => {
   return (
     <>
-      <div className="w-full relative">
+      <div className="relative">
         <div className="absolute right-0 bottom-0">
           <BgCircuitRight />
         </div>
+      </div>
+      <div className={`w-full relative ${className}`}>
         <Container className="z-20 relative">
           <div className="max-w-5xl mx-auto">
             <div className="max-w-5xl mx-auto py-4 md:flex justify-between text-white-200/90 text-base border-b border-yellow-200">

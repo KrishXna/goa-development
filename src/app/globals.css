@@ -26,3 +26,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+.blur {
+  filter: blur(5px);
+}

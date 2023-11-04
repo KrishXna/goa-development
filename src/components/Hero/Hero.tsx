@@ -8,19 +8,13 @@ import Timer from "../Timer/Timer";
 import { Button } from "../Button";
 const Hero = () => {
   return (
-    <>
+    <div>
       <div className="relative z-20 w-full">
-        {/* <div
-          className="absolute bottom-0 left-0 md:w-[200px] lg:w-[400px] h-[800px] opacity-60 blur-3xl"
-          style={{
-            background: "linear-gradient(180deg, #FFDE77 0%, #FFB32E 100%)",
-          }}
-        ></div> */}
         <video
           src="/goa.mp4"
           muted
           loop
-          autoPlay
+          // autoPlay
           className="w-full h-full"
         ></video>
         <div className="md:absolute w-full bottom-0 z-20">
@@ -79,7 +73,7 @@ const Hero = () => {
       >
         <Timer />
       </div>
-    </>
+    </div>
   );
 };
 
