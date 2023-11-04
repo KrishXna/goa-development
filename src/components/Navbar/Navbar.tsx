@@ -47,7 +47,7 @@ const Navbar = () => {
             <span className="w-10 h-[3px] rounded-full bg-yellow-200 rotate-45"></span>
           </div>
 
-          <div className="w-full text-white-100 p-2 sm:p-6 pb-10 flex flex-col gap-20 mt-10">
+          <div className="w-full text-white-100 p-2 sm:p-6 pb-10 flex flex-col gap-20 mt-20">
             {NavMenuItems.map((navMenu, index) => (
               <div
                 className={`flex gap-4 justify-end ${
@@ -60,15 +60,13 @@ const Navbar = () => {
                     <div className="flex items-center gap-2 group-hover:pr-4 md:group-hover:pr-10 duration-300">
                       <div onClick={() => handleOpenMenu(index)}>
                         {navMenu?.children && navMenu.children.length > 0 && (
-                          <div className="border border-white-100 p-1">
+                          <div className="border border-white-100 p-1 -mt-2">
                             <DownArrowIcon className="w-4" />
                           </div>
                         )}
                       </div>
-                      <div className="text-white-100 font-bold text-2xl md:text-5xl uppercase group-hover:text-yellow-200">
-                        <a href={navMenu.slug} className="mb-4">
-                          {navMenu.name}
-                        </a>
+                      <div className="text-white-100 font-bold text-2xl md:text-5xl uppercase group-hover:text-yellow-200 mb-3">
+                        <a href={navMenu.slug}>{navMenu.name}</a>
                       </div>
                     </div>
                     <div className="w-20 group-hover:w-24 md:group-hover:w-40 duration-300 h-0 border border-white-100 group-hover:border-yellow-200"></div>
