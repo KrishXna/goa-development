@@ -33,8 +33,10 @@ const Navbar = () => {
     <>
       <div className={`${showNav ? "" : "overflow-hidden"}`}>
         <div
-          className={`${showNav ? "translate-x-0" : "translate-x-full"}
-            bg-[#1A1D23] border border-white-100 z-50 absolute inset-y-0 shrink-0 flex flex-col right-0 duration-300 delay-150 w-full lg:w-1/2`}
+          className={`${
+            showNav ? "translate-x-0 translate-y-auto" : "translate-x-full"
+          }
+            bg-[#1A1D23] border border-white-100 z-50 absolute right-0 duration-300 delay-150 w-full lg:w-1/2`}
         >
           <div
             className="flex justify-end text-yellow-100 py-10 px-5 relative"
