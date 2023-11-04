@@ -21,6 +21,7 @@ const config: Config = {
       },
       gray: {
         100: "#32323A",
+        200: "#1A1D23",
       },
     },
     extend: {
