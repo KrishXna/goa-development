@@ -70,7 +70,7 @@ const Navbar = () => {
                       </div>
                     </div>
                     <div className="w-20 group-hover:w-24 md:group-hover:w-40 duration-300 h-0 border border-white-100 group-hover:border-yellow-200"></div>
-                    <div className="font-bold text-2xl group-hover:text-yellow-200">
+                    <div className="font-bold text-2xl md:text-5xl group-hover:text-yellow-200">
                       0{index}
                     </div>
                   </div>
