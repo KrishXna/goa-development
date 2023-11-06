@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
       </div>
       <div>
-        <div className="absolute z-0 left-0 top-0 w-full">
+        <div className="absolute z-0 left-0 top-0 w-full overflow-hidden">
           {pathname !== "/" && <BgCircuit />}
         </div>
         <Container className="relative z-20">

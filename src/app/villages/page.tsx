@@ -23,7 +23,7 @@ const page = () => {
             knowledge and secure fantastic rewards – the adventure awaits!
           </p>
           <ul
-            className="text-white-100/80 text-xl font-normal pl-2 md:pl-8
+            className="text-white-100 text-xl font-normal pl-2 md:pl-8
           flex flex-col gap-4"
           >
             <li className="list-decimal">AI Village</li>
