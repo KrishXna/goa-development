@@ -29,7 +29,7 @@ export const Button = ({
   blank = false,
 }: Props) => {
   const classNames = {
-    default: "px-4 py-2 inline-block rounded-xl",
+    default: "px-5 py-3 inline-block rounded-xl",
     colored: "",
     outline: "",
   };
@@ -50,7 +50,7 @@ export const Button = ({
     case "colored":
       const colored = (component: React.ReactNode) => (
         <div
-          className="inline-flex justify-center items-center text-sm font-normal rounded-md"
+          className="inline-flex justify-center items-center text-base font-medium rounded-md"
           style={{
             background: "linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%)",
             padding: `${borderSize ? borderSize : 4}px`,

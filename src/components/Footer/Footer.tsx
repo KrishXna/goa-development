@@ -16,7 +16,7 @@ const Footer = ({ className }: Props) => {
           <BgCircuitRight />
         </div>
       </div>
-      <div className={`w-full relative ${className}`}>
+      <div className={`w-full pt-10 relative ${className}`}>
         <Container className="z-20 relative">
           <div className="max-w-5xl mx-auto">
             <div className="max-w-5xl mx-auto py-4 md:flex justify-between text-white-200/90 text-base border-b border-yellow-200">

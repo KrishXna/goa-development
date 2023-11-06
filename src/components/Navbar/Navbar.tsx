@@ -12,13 +12,6 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const [openMenuIndex, setOpenMenuIndex] = useState(-1);
 
-  useEffect(() => {
-    // if (showNav == true) {
-    //   document.body.style.overflow = "hidden";
-    // } else {
-    //   document.body.style.overflow = "unset";
-    // }
-  });
   const pathname = usePathname();
 
   const handleNavbar = () => {
@@ -101,12 +94,11 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-
-        <div className="absolute z-0 left-0 top-0 w-full overflow-hidden">
-          {pathname !== "/" && <BgCircuit />}
-        </div>
       </div>
       <div>
+        <div className="absolute z-0 left-0 top-0 w-full">
+          {pathname !== "/" && <BgCircuit />}
+        </div>
         <Container className="relative z-20">
           <div
             className="absolute z-0 right-0 top-0 w-60 h-60 rounded-full overflow-hidden blur-3xl opacity-40 pointer-events-none"
