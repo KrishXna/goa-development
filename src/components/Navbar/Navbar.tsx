@@ -57,7 +57,7 @@ const Navbar = () => {
                       <div onClick={() => handleOpenMenu(index)}>
                         {navMenu?.children && navMenu.children.length > 0 && (
                           <div className="border border-white-100 p-1 -mt-2">
-                            <DownArrowIcon className="w-4" />
+                            <DownArrowIcon className="w-4 cursor-pointer" />
                           </div>
                         )}
                       </div>

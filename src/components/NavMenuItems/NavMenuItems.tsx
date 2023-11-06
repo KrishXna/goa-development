@@ -29,20 +29,20 @@ export const NavMenuItems: NavMenu[] = [
     slug: "/schedule",
     children: [
       { name: "Trainings", slug: "trainings" },
-      { name: "Speakers", slug: "speakers" },
+      { name: "Speakers", slug: "mentors" },
       { name: "CTF", slug: "ctf" },
-      { name: "Live Event Hacking", slug: "" },
-      { name: "Career Carnival", slug: "" },
+      { name: "Live Event Hacking", slug: "/" },
+      { name: "Career Carnival", slug: "/" },
     ],
   },
   {
     name: "SPONSORS",
     slug: "/sponsors",
-    children: [{ name: "Community Partnership", slug: "" }],
+    children: [{ name: "Community Partnership", slug: "/" }],
   },
   {
     name: "Register",
-    slug: "/register",
+    slug: "register",
     children: [],
   },
   {
