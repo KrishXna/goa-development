@@ -14,7 +14,7 @@ const Hero = () => {
           src="/goa.mp4"
           muted
           loop
-          // autoPlay
+          autoPlay
           className="w-full h-full"
         ></video>
         <div className="md:absolute w-full bottom-0 z-20">
