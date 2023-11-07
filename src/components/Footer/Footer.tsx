@@ -1,19 +1,23 @@
+"use client";
 import React from "react";
 import Container from "@/components/Container";
 import SocialIcons from "../SocialIcons/SocialIcons";
 import Logo from "@/assets/Images/logo.png";
 import { BgCircuitRight } from "@/assets/Icons";
+import { usePathname } from "next/navigation";
 
 type Props = {
   className?: string;
 };
 
 const Footer = ({ className }: Props) => {
+  const pathname = usePathname();
+
   return (
     <>
       <div className="relative">
         <div className="absolute right-0 bottom-0">
-          <BgCircuitRight />
+          <BgCircuitRight className="w-full" />
         </div>
       </div>
       <div className={`w-full pt-10 relative ${className}`}>

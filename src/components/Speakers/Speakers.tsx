@@ -11,6 +11,7 @@ import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
 import Anthony from "@/assets/Images/anthony.png";
 import DotImage from "@/assets/Images/dotsimg.png";
 import { LinesLeftIcon, LinesRightIcon } from "@/assets/Icons";
+
 const Speakers = () => {
   const data = [
     {
@@ -18,48 +19,64 @@ const Speakers = () => {
       image: jacobSmith,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Adrian",
       image: Adrian,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Yash Mittal",
       image: YashMittal,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Rowan Sullivan",
       image: RowanSullivan,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Christopher Brown",
       image: ChristopherBrown,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Aloysius Cheang",
       image: AloysiusCheang,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Bryce Case",
       image: BryceCase,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
     {
       name: "Anthony",
       image: Anthony,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      twitter: "",
+      facebook: "",
     },
   ];
 
@@ -89,12 +106,16 @@ const Speakers = () => {
           </div>
           <div className="flex flex-wrap justify-center">
             {data.map((item) => (
-              <UserCard
-                key={item.name}
-                src={item.image.src}
-                name={item.name}
-                title={item.title}
-              />
+              <>
+                <UserCard
+                  key={item.name}
+                  src={item.image.src}
+                  name={item.name}
+                  title={item.title}
+                  twitter={item.twitter}
+                  facebook={item.facebook}
+                />
+              </>
             ))}
           </div>
         </Container>

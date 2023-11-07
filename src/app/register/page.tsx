@@ -6,10 +6,11 @@ import Button from "@/components/Button/Button";
 import EventAccordion from "@/components/EventAccordion/EventAccordion";
 import RightTickIcon from "@/assets/Icons/RightTickIcon";
 import WrongTickIcon from "@/assets/Icons/WrongTickIcon";
+import { BgCircuitRight } from "@/assets/Icons";
 
 const page = () => {
   return (
-    <>
+    <div className="relative">
       <Container glowEffect>
         <Banner text="" image={BannerImg.src} />
 
@@ -51,7 +52,7 @@ const page = () => {
           </div>
           <h2 className="text-3xl font-bold text-white-100">Pass Pricing</h2>
           <div className="w-full mx-auto overflow-x-auto">
-            <table className="w-full table-fixed text-white-100 border-separate">
+            <table className="w-full text-white-100 border-separate">
               <thead>
                 <tr
                   className="text-xl font-bold"
@@ -277,7 +278,10 @@ const page = () => {
           />
         </div>
       </Container>
-    </>
+      {/* <div className="absolute right-0 bottom-0">
+        <BgCircuitRight className="w-full h-[400px]" />
+      </div> */}
+    </div>
   );
 };
 

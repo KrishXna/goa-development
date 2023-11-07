@@ -5,9 +5,11 @@ type Props = {
   src?: string;
   name: string;
   title: string;
+  twitter?: string;
+  facebook?: string;
 };
 
-const ImgCard = ({ src, name, title }: Props) => {
+const UserCard = ({ src, name, title, twitter, facebook }: Props) => {
   return (
     <>
       <div className="max-w-[300px] p-6 group">
@@ -25,8 +27,17 @@ const ImgCard = ({ src, name, title }: Props) => {
             }}
           >
             <div className="flex justify-center gap-10 w-full">
-              <TwitterIcon className="w-8 h-8" />
-              <LinkedinIcon className="w-8 h-8" />
+              {/* {twitter && ( */}
+              <a href={twitter} target="_blank">
+                <TwitterIcon className="w-8 h-8" />
+              </a>
+              {/* )} */}
+
+              {/* {facebook && ( */}
+              <a href={facebook} target="_blank">
+                <LinkedinIcon className="w-8 h-8" />
+              </a>
+              {/* )} */}
             </div>
           </div>
           <div className="flex justify-center pb-2">
@@ -41,4 +52,4 @@ const ImgCard = ({ src, name, title }: Props) => {
   );
 };
 
-export default ImgCard;
+export default UserCard;

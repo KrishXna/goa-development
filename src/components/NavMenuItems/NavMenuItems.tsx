@@ -1,6 +1,6 @@
 export type NavMenu = {
   name: any;
-  slug?: string;
+  slug: string;
   external?: boolean;
   children?: NavMenu[];
 };
