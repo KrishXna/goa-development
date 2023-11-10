@@ -49,7 +49,7 @@ const Navbar = () => {
             }
             bg-[#1A1D23] border border-white-100 z-50 absolute right-0 duration-300 delay-150 w-full lg:w-1/2`}
           >
-            <div className="pr-[200px]">
+            <div>
               <div className="w-full text-white-100 p-2 sm:p-6 pb-10 flex flex-col justify-center items-center gap-4 mt-20">
                 {NavMenuItems.map((navMenu, index) => (
                   <div
