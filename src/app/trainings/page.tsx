@@ -1,26 +1,28 @@
 import React from "react";
 import Container from "@/components/Container";
-import TrainingsImg from "@/assets/Images/trainings.png";
+import TrainingsImg from "@/assets/tinified/training.png";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
-  const data = [
-    {
-      title: "aaa",
-      body: ["eee", "fff", "ddd"],
-    },
-    {
-      title: "abc2",
-      body: ["eee", "fff", "ddd"],
-    },
-    {
-      title: "abc3",
-      body: ["eee", "fff", "ddd"],
-    },
-  ];
+  // const data = [
+  //   {
+  //     title: "aaa",
+  //     body: ["eee", "fff", "ddd"],
+  //   },
+  //   {
+  //     title: "abc2",
+  //     body: ["eee", "fff", "ddd"],
+  //   },
+  //   {
+  //     title: "abc3",
+  //     body: ["eee", "fff", "ddd"],
+  //   },
+  // ];
   return (
     <>
+      <Banner text="TRAININGS" image={TrainingsImg.src} />
+
       <Container glowEffect>
         {/* {data.map((item) => (
           <>
@@ -35,7 +37,6 @@ const page = () => {
           </>
         ))} */}
 
-        <Banner text="" image={TrainingsImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Trainings</h2>
           <p className="text-white-100/80 text-xl font-normal">

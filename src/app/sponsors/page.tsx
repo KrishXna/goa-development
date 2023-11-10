@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/sponsors.png";
+import BannerImg from "@/assets/tinified/sponsors.png";
 
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
@@ -8,8 +8,8 @@ import Banner from "@/components/Banner/Banner";
 const page = () => {
   return (
     <>
+      <Banner text="SPONSORS" image={BannerImg.src} />
       <Container glowEffect>
-        <Banner text="" image={AboutImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Sponsors</h2>
           <p className="text-white-100/80 text-xl font-normal">

@@ -11,7 +11,7 @@ import LinesLeftIcon from "./LinesLeftIcon";
 import LinesRightIcon from "./LinesRightIcon";
 import DownArrowIcon from "./DownArrowIcon";
 import CloseArrowIcon from "./CloseArrowIcon";
-
+import LineIcons from "./LineIcons";
 export {
   MenuIcon,
   ArrowIcon,
@@ -26,4 +26,5 @@ export {
   LinesRightIcon,
   DownArrowIcon,
   CloseArrowIcon,
+  LineIcons,
 };

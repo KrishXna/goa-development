@@ -1,7 +1,7 @@
 import React from "react";
 import EventAccordion from "@/components/EventAccordion/EventAccordion";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/Images/faq.png";
+import BannerImg from "@/assets/tinified/faq.png";
 import Banner from "@/components/Banner/Banner";
 import { BgCircleIcon } from "@/assets/Icons";
 
@@ -41,8 +41,8 @@ const page = () => {
   return (
     <div className="w-full overflow-hidden relative">
       <BgCircleIcon className="absolute z-0" />
+      <Banner text="FAQ" image={BannerImg.src} />
       <Container glowEffect className="relative z-20 lg:pb-10">
-        <Banner text="" image={BannerImg.src} />
         <div className="flex flex-col gap-8">
           <div>
             <h2 className="text-white-100 font-bold text-2xl md:text-4xl">

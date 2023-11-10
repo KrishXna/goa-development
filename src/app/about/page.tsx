@@ -1,14 +1,14 @@
 import React from "react";
 import Container from "@/components/Container";
-import AboutImg from "@/assets/Images/about.png";
+import AboutImg from "@/assets/tinified/about.png";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
   return (
     <>
+      <Banner text="About Bsides Goa" image={AboutImg.src} />
       <Container glowEffect>
-        <Banner text="" image={AboutImg.src} />
         <div className="flex flex-col gap-8">
           <p className="text-white-100/80 text-xl font-normal">
             BSides Goa is a dynamic initiative driven by the cybersecurity

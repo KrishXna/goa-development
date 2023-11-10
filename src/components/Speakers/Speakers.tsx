@@ -10,13 +10,14 @@ import AloysiusCheang from "@/assets/Images/aloysius-cheang.png";
 import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
 import Anthony from "@/assets/Images/anthony.png";
 import DotImage from "@/assets/Images/dotsimg.png";
-import { LinesLeftIcon, LinesRightIcon } from "@/assets/Icons";
+import { LinesLeftIcon, LinesRightIcon, LineIcons } from "@/assets/Icons";
 
 const Speakers = () => {
   const data = [
     {
       name: "Jacob Smith",
       image: jacobSmith,
+      image2: RowanSullivan,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -25,6 +26,7 @@ const Speakers = () => {
     {
       name: "Adrian",
       image: Adrian,
+      image2: RowanSullivan,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -33,6 +35,7 @@ const Speakers = () => {
     {
       name: "Yash Mittal",
       image: YashMittal,
+      image2: Adrian,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -41,6 +44,7 @@ const Speakers = () => {
     {
       name: "Rowan Sullivan",
       image: RowanSullivan,
+      image2: Adrian,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -49,6 +53,7 @@ const Speakers = () => {
     {
       name: "Christopher Brown",
       image: ChristopherBrown,
+      image2: Anthony,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -57,6 +62,7 @@ const Speakers = () => {
     {
       name: "Aloysius Cheang",
       image: AloysiusCheang,
+      image2: Adrian,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -65,6 +71,7 @@ const Speakers = () => {
     {
       name: "Bryce Case",
       image: BryceCase,
+      image2: Adrian,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -73,6 +80,7 @@ const Speakers = () => {
     {
       name: "Anthony",
       image: Anthony,
+      image2: AloysiusCheang,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
@@ -95,21 +103,22 @@ const Speakers = () => {
         </div>
         <Container className="py-20 relative z-20">
           <div className="flex justify-center md:gap-6">
-            <LinesRightIcon className="w-10" />
+            <LineIcons className="w-10" />
             <div className="md:text-3xl font-semibold text-center">
               <h2 className="text-white-100">
                 TOP INFOSEC LEADERS & ETHICAL HACKERS JOIN
               </h2>
               <span className="text-yellow-200">FORCES ON STAGE</span>
             </div>
-            <LinesLeftIcon className="w-10" />
+            <LineIcons className="w-10" />
           </div>
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center max-w-6xl mx-auto">
             {data.map((item) => (
               <>
                 <UserCard
                   key={item.name}
                   src={item.image.src}
+                  img={item.image2?.src}
                   name={item.name}
                   title={item.title}
                   twitter={item.twitter}

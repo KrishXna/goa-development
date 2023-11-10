@@ -1,14 +1,14 @@
 import React from "react";
 import Container from "@/components/Container";
-import CTFImg from "@/assets/Images/capture-the-flag.png";
+import CTFImg from "@/assets/tinified/ctf.png";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
   return (
     <>
+      <Banner text="CAPTURE THE FLAG (CTF)" image={CTFImg.src} />
       <Container glowEffect>
-        <Banner text="" image={CTFImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">
             Capture the Flag(CTF)

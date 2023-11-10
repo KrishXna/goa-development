@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     fontFamily: {
       montserrat: ["montserrat"],
+      bellefair: ["bellefair"],
     },
+
     colors: {
       yellow: {
         100: "#FFDB72",

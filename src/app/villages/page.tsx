@@ -1,13 +1,13 @@
 import React from "react";
 import Container from "@/components/Container";
-import VillagesImg from "@/assets/Images/villages.png";
+import VillagesImg from "@/assets/tinified/village.png";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
   return (
     <>
+      <Banner text="VILLAGES" image={VillagesImg.src} />
       <Container glowEffect className="relative z-20 pb-20">
-        <Banner text="" image={VillagesImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Villages</h2>
           <p className="text-white-100/80 text-xl font-normal">

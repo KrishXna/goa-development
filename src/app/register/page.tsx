@@ -14,119 +14,7 @@ const page = () => {
       <Container glowEffect>
         <Banner text="" image={BannerImg.src} />
 
-        <div className="relative flex flex-col gap-8 w-full">
-          <h2 className="text-3xl font-bold text-white-100">Group Discounts</h2>
-          <div className="w-full mx-auto overflow-x-auto">
-            <table className="w-full text-white-100 border-separate">
-              <thead>
-                <tr
-                  className="font-bold text-xl"
-                  style={{
-                    background:
-                      "linear-gradient(180deg, #F5BE3D 0%, #FFA503 100%)",
-                  }}
-                >
-                  <th
-                    scope="co"
-                    className="px-10 py-5 rounded-l-lg border-r-2 border-black"
-                  >
-                    Quantity
-                  </th>
-                  <th scope="col" className="px-10 py-5 rounded-r-lg">
-                    Discount
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="text-center text-white-100/90 text-base font-semibold bg-gray-100">
-                  <td
-                    scope=""
-                    className="rounded-l-lg py-5 border-r-2 border-black"
-                  >
-                    For 4 or more participants
-                  </td>
-                  <td className="px-6 rounded-r-lg py-5">5%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 className="text-3xl font-bold text-white-100">Pass Pricing</h2>
-          <div className="w-full mx-auto overflow-x-auto">
-            <table className="w-full text-white-100 border-separate">
-              <thead>
-                <tr
-                  className="text-xl font-bold"
-                  style={{
-                    background:
-                      "linear-gradient(180deg, #F5BE3D 0%, #FFA503 100%)",
-                  }}
-                >
-                  <th className="px-10 rounded-l-lg py-5 border-r-2 border-black">
-                    PASSES
-                  </th>
-                  <th className="px-10 py-5 rounded-r-lg" colSpan={2}>
-                    AT-CON RATES(1ST AUGUST - TILL SOLD OUT)
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr
-                  className="text-center text-white-100/90 text-base text-semibold"
-                  style={{
-                    background:
-                      "linear-gradient(180deg, #F5BE3D 0%, #FFA503 100%)",
-                  }}
-                >
-                  <td className="rounded-l-lg py-5 border-r-2 border-black"></td>
-                  <td className="py-5 border-r-2 border-black">INR</td>
-                  <td className="px-6 rounded-r-lg py-5">USD</td>
-                </tr>
-                <tr className="text-center text-white-100/90 text-xl font-semibold">
-                  <td className="rounded-l-lg py-5 border-r border-white-100">
-                    STUDENT PASS
-                  </td>
-                  <td className="px-6 py-4 border-r border-white-100">4499</td>
-                  <td className="px-6 py-4">85</td>
-                </tr>
-                <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
-                  <td className="rounded-l-lg py-5 border-r border-white-100">
-                    INDIVIDUAL PASS
-                  </td>
-                  <td className="px-6 py-4 border-r border-white-100">9999</td>
-                  <td className="px-6 py-4 rounded-r-lg">185</td>
-                </tr>
-                <tr className="text-center text-white-100/90 text-xl font-semibold">
-                  <td className="rounded-l-lg py-5 border-r border-white-100">
-                    CORPORATE PASS
-                  </td>
-                  <td className="px-6 py-4 border-r border-white-100">14999</td>
-                  <td className="px-6 py-4">275</td>
-                </tr>
-                <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
-                  <td className="rounded-l-lg py-5 border-r border-white-100">
-                    3 DAYS TRAINING PASS
-                  </td>
-                  <td className="px-6 py-4 border-r border-white-100">45499</td>
-                  <td className="px-6 py-4 rounded-r-lg">840</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p className="text-base font-semibold text-white-100">
-            *All rates are exculsive of taxes, GST 18%, and payment gateway fee
-            will be charged additionally.
-          </p>
-          <div className="mx-auto">
-            <Button
-              variant="colored"
-              externalLink={true}
-              blank={true}
-              href=""
-              className="inline-block"
-            >
-              Register Now
-            </Button>
-          </div>
+        <div className="relative flex flex-col gap-20 w-full">
           <div className="w-full mx-auto overflow-x-auto">
             <table className="w-full text-white-100 border-separate ">
               <thead>
@@ -261,7 +149,137 @@ const page = () => {
               </tbody>
             </table>
           </div>
-          <div className="mx-auto">
+          <div className="flex flex-col gap-8">
+            <h2 className="text-3xl font-bold text-white-100">
+              Group Discounts
+            </h2>
+            <div className="w-full mx-auto overflow-x-auto">
+              <table className="w-full text-white-100 border-separate">
+                <thead>
+                  <tr
+                    className="font-bold text-xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #F5BE3D 0%, #FFA503 100%)",
+                    }}
+                  >
+                    <th
+                      scope="co"
+                      className="px-10 py-5 rounded-l-lg border-r-2 border-black"
+                    >
+                      Quantity
+                    </th>
+                    <th scope="col" className="px-10 py-5 rounded-r-lg">
+                      Discount
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="text-center text-white-100/90 text-base font-semibold bg-gray-100">
+                    <td
+                      scope=""
+                      className="rounded-l-lg py-5 border-r-2 border-black"
+                    >
+                      For 4 or more participants
+                    </td>
+                    <td className="px-6 rounded-r-lg py-5">5%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="flex flex-col gap-8">
+            <h2 className="text-3xl font-bold text-white-100">Pass Pricing</h2>
+            <div className="w-full mx-auto overflow-x-auto">
+              <table className="w-full text-white-100 border-separate">
+                <thead>
+                  <tr
+                    className="text-xl font-bold"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #F5BE3D 0%, #FFA503 100%)",
+                    }}
+                  >
+                    <th
+                      className="px-10 rounded-l-lg py-5 border-r-2 border-black"
+                      // rowSpan={2}
+                    >
+                      PASSES
+                    </th>
+                    <th className="px-10 py-5 rounded-r-lg" colSpan={2}>
+                      AT-CON RATES(1ST AUGUST - TILL SOLD OUT)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    className="text-center text-white-100/90 text-base text-semibold"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #F5BE3D 0%, #FFA503 100%)",
+                    }}
+                  >
+                    <td className="rounded-l-lg py-5 border-r-2 border-black"></td>
+                    <td className="py-5 border-r-2 border-black">INR</td>
+                    <td className="px-6 rounded-r-lg py-5">USD</td>
+                  </tr>
+                  <tr className="text-center text-white-100/90 text-xl font-semibold">
+                    <td className="rounded-l-lg py-5 border-r border-white-100">
+                      STUDENT PASS
+                    </td>
+                    <td className="px-6 py-4 border-r border-white-100">
+                      4499
+                    </td>
+                    <td className="px-6 py-4">85</td>
+                  </tr>
+                  <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
+                    <td className="rounded-l-lg py-5 border-r border-white-100">
+                      INDIVIDUAL PASS
+                    </td>
+                    <td className="px-6 py-4 border-r border-white-100">
+                      9999
+                    </td>
+                    <td className="px-6 py-4 rounded-r-lg">185</td>
+                  </tr>
+                  <tr className="text-center text-white-100/90 text-xl font-semibold">
+                    <td className="rounded-l-lg py-5 border-r border-white-100">
+                      CORPORATE PASS
+                    </td>
+                    <td className="px-6 py-4 border-r border-white-100">
+                      14999
+                    </td>
+                    <td className="px-6 py-4">275</td>
+                  </tr>
+                  <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
+                    <td className="rounded-l-lg py-5 border-r border-white-100">
+                      3 DAYS TRAINING PASS
+                    </td>
+                    <td className="px-6 py-4 border-r border-white-100">
+                      45499
+                    </td>
+                    <td className="px-6 py-4 rounded-r-lg">840</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-base font-semibold text-white-100">
+              *All rates are exculsive of taxes, GST 18%, and payment gateway
+              fee will be charged additionally.
+            </p>
+            <div className="mx-auto">
+              <Button
+                variant="colored"
+                externalLink={true}
+                blank={true}
+                href=""
+                className="inline-block"
+              >
+                Register Now
+              </Button>
+            </div>
+          </div>
+
+          {/* <div className="mx-auto">
             <Button
               variant="colored"
               externalLink={true}
@@ -271,7 +289,7 @@ const page = () => {
             >
               Register Now
             </Button>
-          </div>
+          </div> */}
           <EventAccordion
             question="Terms & Conditions"
             answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt animi omnis laborum quibusdam doloremque unde nihil, placeat nostrum hic?"

@@ -1,14 +1,14 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/Images/code-of-conduct.png";
+import BannerImg from "@/assets/tinified/code-of-conduct.png";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
   return (
     <>
+      <Banner text="CODE OF CONDUCT" image={BannerImg.src} />
       <Container glowEffect>
-        <Banner text="" image={BannerImg.src} />
         <div className="flex flex-col gap-8">
           <h2 className="text-white-100 font-bold text-3xl">Code Of Conduct</h2>
           <p className="text-white-100/80 text-xl font-normal">

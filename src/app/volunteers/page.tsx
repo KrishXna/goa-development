@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import VolunteersImg from "@/assets/Images/volunteers.png";
+import VolunteersImg from "@/assets/tinified/voluntteer.png";
 import Banner from "@/components/Banner/Banner";
 import { Usercard } from "@/components/Card";
 import Adrian from "@/assets/Images/adrian.png";
@@ -12,49 +12,61 @@ const page = () => {
     {
       name: "Adrian",
       image: Adrian,
+      image2: YashMittal,
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
     {
       name: "Rowan Sullivan",
       image: RowanSullivan,
+      image2: Adrian,
+
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
     {
       name: "Yash Mittal",
       image: YashMittal,
+      image2: YashMittal,
+
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
     {
       name: "Adrian",
       image: Adrian,
+      image2: RowanSullivan,
+
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
     {
       name: "Rowan Sullivan",
       image: RowanSullivan,
+      image2: YashMittal,
+
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
     {
       name: "Yash Mittal",
       image: YashMittal,
+      image2: RowanSullivan,
+
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
   ];
   return (
     <>
+      <Banner text="VOLUNTEERS" image={VolunteersImg.src} />;
       <Container glowEffect className="relative z-20">
-        <Banner text="" image={VolunteersImg.src} />;
         <div className="flex flex-wrap justify-center pb-20 max-w-5xl mx-auto">
           {data.map((item) => (
             <Usercard
               key={item.name}
               src={item.image.src}
+              img={item.image2?.src}
               name={item.name}
               title={item.title}
             />

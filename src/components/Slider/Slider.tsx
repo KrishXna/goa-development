@@ -16,18 +16,19 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 const Slider = () => {
   return (
     <>
-      <Container className="py-20">
+      <Container className="py-14">
         <Swiper
           spaceBetween={0}
-          slidesPerView={3}
+          slidesPerView={1}
           loop={true}
-          // autoplay={{
-          //   delay: 2500,
-          //   disableOnInteraction: false,
-          // }}
-          autoplay={true}
-          // initialSlide={2}
           navigation={true}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          breakpoints={{
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           grabCursor={true}
