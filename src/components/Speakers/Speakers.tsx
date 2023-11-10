@@ -102,17 +102,15 @@ const Speakers = () => {
           />
         </div>
         <Container className="py-20 relative z-20">
-          <div className="flex justify-center md:gap-6">
+          <div className="flex justify-center items-center gap-6">
             <LineIcons className="w-10" />
-            <div className="md:text-3xl font-semibold text-center">
-              <h2 className="text-white-100">
-                TOP INFOSEC LEADERS & ETHICAL HACKERS JOIN
-              </h2>
-              <span className="text-yellow-200">FORCES ON STAGE</span>
+            <div className="md:text-3xl font-semibold text-center md:flex">
+              <h2 className="text-white-100">BSIDES GOA &nbsp; </h2>
+              <span className="text-yellow-200">MENTORS</span>
             </div>
             <LineIcons className="w-10" />
           </div>
-          <div className="flex flex-wrap justify-center max-w-6xl mx-auto">
+          <div className="flex flex-wrap justify-center max-w-6xl mx-auto mt-10">
             {data.map((item) => (
               <>
                 <UserCard
