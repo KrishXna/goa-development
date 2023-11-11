@@ -89,7 +89,7 @@ const Hero = () => {
 
         <div className="relative">
           <div
-            className="absolute bottom-0 inset-x-0 h-[200px] z-10"
+            className="absolute -bottom-1 inset-x-0 h-[200px] z-10"
             style={{
               background:
                 "linear-gradient(0deg, rgb(26, 29, 35) 0%, rgba(30, 34, 41, 0) 100%)",

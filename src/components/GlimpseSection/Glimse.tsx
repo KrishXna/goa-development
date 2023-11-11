@@ -1,9 +1,8 @@
 import React from "react";
 import Container from "@/components/Container";
-import { LineIcons, LinesLeftIcon, LinesRightIcon } from "@/assets/Icons";
-import Slider from "@/assets/Images/Group.png";
-import Image from "next/image";
+import { LineIcons, ArrowRightIcon } from "@/assets/Icons";
 import SwiperSlider from "../Slider/Slider";
+
 const Glimpse = () => {
   return (
     <div className="w-full bg-cover bg-no-repeat bg-center object-contain bg-[#1d2329]">
@@ -15,11 +14,10 @@ const Glimpse = () => {
               Experience the Highlights
             </h2>
             <h2 className="text-yellow-200 uppercase">
-              {" "}
               Sneak Peek into BSides GOA
             </h2>
           </div>
-          <LineIcons className="w-10" />
+          <ArrowRightIcon className="w-10" />
         </div>
         <SwiperSlider />
         <div className="flex justify-center items-center gap-6">
@@ -29,7 +27,7 @@ const Glimpse = () => {
             <h2 className="text-white-100">BSIDES GOA :&nbsp;</h2>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
-          <LineIcons className="w-10" />
+          <ArrowRightIcon className="w-10" />
         </div>
         <p className="text-sm md:text-base font-semibold text-center text-white-100/80 mt-2 lg:px-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

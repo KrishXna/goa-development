@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination, Scrollbar } from "swiper/modules";
+import { EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-
 import { Container } from "@/components/Container";
 import Slider_img1 from "@/assets/Images/frame-logo.png";
 import Slider_img2 from "@/assets/Images/frame-aeroplain.png";
@@ -11,18 +12,19 @@ import Slider_img3 from "@/assets/Images/frame-logo.png";
 import Slider_img4 from "@/assets/Images/frame-people.png";
 import Slider_img5 from "@/assets/Images/frame-tshirt.png";
 
-import { EffectCoverflow, Pagination } from "swiper/modules";
-
 const Slider = () => {
   return (
     <>
       <Container className="py-14">
         <Swiper
           spaceBetween={0}
-          slidesPerView={1}
           loop={true}
+          speed={1000}
           navigation={true}
-          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          autoplay={{
+            delay: 2000,
+          }}
+          effect={"coverflow"}
           breakpoints={{
             768: {
               slidesPerView: 3,
@@ -33,7 +35,7 @@ const Slider = () => {
           scrollbar={{ draggable: true }}
           grabCursor={true}
           centeredSlides={true}
-          effect={"coverflow"}
+          slidesPerView="auto"
           coverflowEffect={{
             rotate: 50,
             stretch: 0,
@@ -41,7 +43,13 @@ const Slider = () => {
             modifier: 1,
             slideShadows: true,
           }}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[
+            EffectCoverflow,
+            Navigation,
+            Pagination,
+            Scrollbar,
+            Autoplay,
+          ]}
           className="mySwiper"
         >
           <SwiperSlide>

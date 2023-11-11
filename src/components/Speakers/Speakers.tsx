@@ -10,7 +10,7 @@ import AloysiusCheang from "@/assets/Images/aloysius-cheang.png";
 import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
 import Anthony from "@/assets/Images/anthony.png";
 import DotImage from "@/assets/Images/dotsimg.png";
-import { LinesLeftIcon, LinesRightIcon, LineIcons } from "@/assets/Icons";
+import { LineIcons, ArrowRightIcon } from "@/assets/Icons";
 
 const Speakers = () => {
   const data = [
@@ -108,7 +108,7 @@ const Speakers = () => {
               <h2 className="text-white-100">BSIDES GOA &nbsp; </h2>
               <span className="text-yellow-200">MENTORS</span>
             </div>
-            <LineIcons className="w-10" />
+            <ArrowRightIcon className="w-10" />
           </div>
           <div className="flex flex-wrap justify-center max-w-6xl mx-auto mt-10">
             {data.map((item) => (
