@@ -24,7 +24,7 @@ const Glimpse = () => {
           <LineIcons className="w-10" />
 
           <div className="lg:text-3xl font-semibold text-center md:flex gap-4 justify-center">
-            <h2 className="text-white-100">BSIDES GOA :&nbsp;</h2>
+            <h2 className="text-white-100">BSIDES GOA</h2>
             <span className="text-yellow-200">SPONSORS</span>
           </div>
           <ArrowRightIcon className="w-10" />
