@@ -5,6 +5,7 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 import Logo from "@/assets/Images/logo.png";
 import { BgCircuitRight } from "@/assets/Icons";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 type Props = {
   className?: string;
@@ -30,26 +31,33 @@ const Footer = ({ className }: Props) => {
                   <li>25th - 27th April 2023</li>
                   <li>8:30 AM - 7:00 PM</li>
                   <li>Planet Hollywood Resort, Goa</li>
-                  <li className="font-bold">hello@bsidesgoa.com</li>
-                  <li className="font-bold">Sponsor@bsidesgoa.com</li>
+                  <Link href="https://www.hello@bsidesgoa.com" target="_blank">
+                    <li className="font-bold">hello@bsidesgoa.com</li>
+                  </Link>
+                  <Link
+                    href="https://www.Sponsor@bsidesgoa.com"
+                    target="_blank"
+                  >
+                    <li className="font-bold">Sponsor@bsidesgoa.com</li>
+                  </Link>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                   <li className="text-white-100 text-xl">
-                    <a href="/about">About</a>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <a href="/">BSides Goa</a>
+                    <Link href="/">BSides Goa</Link>
                   </li>
                   <li>
-                    <a href="/coreteam">Core Team</a>
+                    <Link href="/coreteam">Core Team</Link>
                   </li>
                   <li>
-                    <a href="/volunteer">Volunteers</a>
+                    <Link href="/volunteer">Volunteers</Link>
                   </li>
                   <li>
-                    <a href="/mentors">Mentors</a>
+                    <Link href="/mentors">Mentors</Link>
                   </li>
                 </ul>
               </div>
@@ -57,13 +65,13 @@ const Footer = ({ className }: Props) => {
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                   <li className="text-white-100 text-xl">Schedule</li>
                   <li>
-                    <a href="/trainings">Trainings</a>
+                    <Link href="/trainings">Trainings</Link>
                   </li>
                   <li>
-                    <a href="#">Speakers</a>
+                    <Link href="#">Speakers</Link>
                   </li>
                   <li>
-                    <a href="/ctf">CTF</a>
+                    <Link href="/ctf">CTF</Link>
                   </li>
                   <li>Live Hacking Event</li>
                   <li>Career Carnival</li>
@@ -72,11 +80,11 @@ const Footer = ({ className }: Props) => {
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                   <li className="text-white-100 text-xl">
-                    <a href="/sponsors">Sponsors</a>
+                    <Link href="/sponsors">Sponsors</Link>
                   </li>
                   <li>Community Partner</li>
                   <li className="font-bold">
-                    <a href="/register">Register</a>
+                    <Link href="/register">Register</Link>
                   </li>
                   <li>Community Partner</li>
                   <li className="font-bold">Contact Us</li>
@@ -88,9 +96,9 @@ const Footer = ({ className }: Props) => {
             </div>
             <div className="flex flex-col md:flex-row justify-between items-center py-4">
               <div>
-                <a href="/">
+                <Link href="/">
                   <img src={Logo.src} alt="Logo" className="w-40" />
-                </a>
+                </Link>
               </div>
               <div>
                 <p className="text-sm lg:text-lg font-normal text-white-200/90">

@@ -4,6 +4,7 @@ import Container from "@/components/Container";
 import ButtonBackground from "@/assets/Images/button_frame.png";
 import Timer from "../Timer/Timer";
 import { Button } from "../Button";
+import Link from "next/link";
 const Hero = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Hero = () => {
             <div className="text-3xl md:text-5xl font-bold max-w-sm text-yellow-200 text-left">
               BSIDES GOA <br />
               <span className="text-white-100">SECURITY</span> CONFERENCE
-              <p className="text-xl text-white-100">25th-27th April 2024</p>
+              <p className="text-xl text-white-100">25th-27th April 2K24</p>
             </div>
             <div className="flex flex-col gap-y-4 pr-20 mt-6 md:mt-0">
               <p className="max-w-xs text-white-100 lg:text-white-200/80">
@@ -47,28 +48,31 @@ const Hero = () => {
           ></video>
           <div className="absolute top-[50%] translate-y-[-50%] right-10 xl:right-36">
             <div className="hidden lg:flex flex-col gap-y-8 pt-8 justify-center items-center text-lg text-yellow-300">
-              <a href="https://www.instagram.com/bsides_goa/" target="_blank">
+              <Link
+                href="https://www.instagram.com/bsides_goa/"
+                target="_blank"
+              >
                 <div className="w-10 h-10 rounded-full bg-[#000]">
                   <div className="flex justify-center items-center h-10">
                     <i className="fa-brands fa-instagram text-yellow-200"></i>
                   </div>
                 </div>
-              </a>
-              <a href="https://twitter.com/bsidesgoa" target="_blank">
+              </Link>
+              <Link href="https://twitter.com/bsidesgoa" target="_blank">
                 <div className="w-10 h-10 rounded-full bg-[#000]">
                   <div className="flex justify-center items-center h-10">
                     <i className="fa-brands fa-x-twitter text-yellow-200"></i>
                   </div>
                 </div>
-              </a>
+              </Link>
 
-              <a href="https://www.facebook.com/bsidesgoa" target="_blank">
+              <Link href="https://www.facebook.com/bsidesgoa" target="_blank">
                 <div className="w-10 h-10 rounded-full bg-[#000]">
                   <div className="flex justify-center items-center h-10">
                     <i className="fa-brands fa-facebook text-yellow-200"></i>
                   </div>
                 </div>
-              </a>
+              </Link>
               <a href="mailto:hello@bsidesgoa.in" target="_blank">
                 <div className="w-10 h-10 rounded-full bg-[#000]">
                   <div className="flex justify-center items-center h-10">
@@ -76,7 +80,7 @@ const Hero = () => {
                   </div>
                 </div>
               </a>
-              <a
+              <Link
                 href="https://www.linkedin.com/company/bsidesgoa/"
                 target="_blank"
               >
@@ -85,7 +89,7 @@ const Hero = () => {
                     <i className="fa-brands fa-linkedin-in text-yellow-200"></i>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
