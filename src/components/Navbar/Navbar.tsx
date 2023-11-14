@@ -72,7 +72,7 @@ const Navbar = () => {
                 ? "translate-x-0 translate-y-auto overflow-auto h-scree"
                 : "translate-x-full"
             }
-            bg-[#1A1D23 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full md:w-1/2 lg:w-1/3`}
+            bg-[#1A1D23 lg:mr-6 xl:mr-20 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full md:w-1/2 lg:w-1/3`}
           >
             <div>
               <div className="w-full text-white-100 pb-10 flex flex-col justify-center items-center gap-2 mt-20">
@@ -84,7 +84,7 @@ const Navbar = () => {
                     key={index}
                   >
                     <div className="flex flex-col gap-2 group w-full">
-                      <div className="flex justify-end pr-10 md:pr-20 xl:pr-32 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-ful">
+                      <div className="flex justify-end pr-10 md:pr-20 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-ful">
                         <div className="flex justify-end items-center gap-2 duration-300 w-full">
                           <div onClick={() => handleOpenMenu(index)}>
                             {navMenu?.children &&
