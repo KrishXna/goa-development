@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@/components/Container";
 import AboutImg from "@/assets/tinified/about.png";
-import Sponsors from "@/components/Sponsors/Sponsors";
+// import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
@@ -65,7 +65,7 @@ const page = () => {
             conversations and shared insights.
           </p>
         </div>
-        <Sponsors />
+        {/* <Sponsors /> */}
       </Container>
     </>
   );

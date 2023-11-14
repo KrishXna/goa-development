@@ -16,11 +16,11 @@ export const NavMenuItems: NavMenu[] = [
     slug: "/about",
     children: [
       { name: "BSides Goa", slug: "/" },
-      { name: "Core Team", slug: "coreteam" },
+      { name: "Core Team", slug: "core-team" },
       { name: "Volunteers", slug: "volunteers" },
-      { name: "CFP Review Panel", slug: "reviewpanel" },
+      { name: "CFP Review Panel", slug: "cfp" },
       { name: "Mentors", slug: "mentors" },
-      { name: "Code of Conduct", slug: "codeofconduct" },
+      { name: "Code of Conduct", slug: "code-of-conduct" },
       { name: "FAQ", slug: "faq" },
     ],
   },
@@ -31,14 +31,16 @@ export const NavMenuItems: NavMenu[] = [
       { name: "Trainings", slug: "trainings" },
       { name: "Speakers", slug: "mentors" },
       { name: "CTF", slug: "ctf" },
-      { name: "Live Event Hacking", slug: "/" },
-      { name: "Career Carnival", slug: "/" },
+      { name: "Live Event Hacking", slug: "/live-event-hacking" },
+      { name: "Career Carnival", slug: "/career-carnival" },
     ],
   },
   {
     name: "SPONSORS",
     slug: "/sponsors",
-    children: [{ name: "Community Partnership", slug: "/" }],
+    children: [
+      { name: "Community Partnership", slug: "/community-partnership" },
+    ],
   },
   {
     name: "Register",
@@ -47,7 +49,7 @@ export const NavMenuItems: NavMenu[] = [
   },
   {
     name: "Contact us",
-    slug: "/contactus",
+    slug: "/contact-us",
     children: [],
   },
 ];

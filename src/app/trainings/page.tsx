@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@/components/Container";
 import TrainingsImg from "@/assets/tinified/training.png";
-import Sponsors from "@/components/Sponsors/Sponsors";
+// import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
@@ -184,7 +184,7 @@ const page = () => {
             their registration.
           </p>
         </div>
-        <Sponsors />
+        {/* <Sponsors /> */}
       </Container>
     </>
   );

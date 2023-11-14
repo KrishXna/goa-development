@@ -13,13 +13,16 @@ const Hero = () => {
             <div className="text-3xl md:text-5xl font-bold max-w-sm text-yellow-200 text-left">
               BSIDES GOA <br />
               <span className="text-white-100">SECURITY</span> CONFERENCE
+              <p className="text-xl text-white-100">25th-27th April 2024</p>
             </div>
             <div className="flex flex-col gap-y-4 pr-20 mt-6 md:mt-0">
               <p className="max-w-xs text-white-100 lg:text-white-200/80">
                 Hurry! Go and grab your passes in early bird discount.
               </p>
               <div>
-                <Button variant="colored">REGISTER</Button>
+                <Button variant="colored">
+                  REGISTER <br /> (Coming Soon)
+                </Button>
               </div>
             </div>
           </div>

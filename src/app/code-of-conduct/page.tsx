@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@/components/Container";
 import BannerImg from "@/assets/tinified/code-of-conduct.png";
-import Sponsors from "@/components/Sponsors/Sponsors";
+// import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
@@ -57,7 +57,7 @@ const page = () => {
             ensure a positive experience for all attendees at BSides Goa.
           </p>
         </div>
-        <Sponsors />
+        {/* <Sponsors /> */}
       </Container>
     </>
   );

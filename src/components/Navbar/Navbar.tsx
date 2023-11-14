@@ -11,6 +11,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const [showNavMenus, setShowNavMenus] = useState(-1);
+
   const [openMenuIndex, setOpenMenuIndex] = useState(-1);
 
   const pathname = usePathname();
@@ -23,6 +25,10 @@ const Navbar = () => {
     setOpenMenuIndex((prevIndex) => (prevIndex === index ? -1 : index));
   };
 
+  const handleOpenNavMenus = (index: number) => {
+    setShowNavMenus((prevIndex) => (prevIndex === index ? -1 : index));
+  };
+
   useEffect(() => {
     if (showNav) {
       document.body.style.overflow = "hidden";
@@ -30,6 +36,21 @@ const Navbar = () => {
       document.body.style.overflow = "auto";
     }
   });
+
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      const menuContainer = document.getElementById("submenubox"); // Add an id to your menu container
+      if (menuContainer && !menuContainer.contains(event.target as Node)) {
+        setShowNavMenus(-1);
+      }
+    };
+
+    document.addEventListener("click", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, []);
 
   return (
     <>
@@ -39,7 +60,6 @@ const Navbar = () => {
         <div className="absolute z-0 left-0 top-0 w-full overflow-hidden">
           {pathname !== "/" && <BgCircuit />}
         </div>
-        {/* <Container className="relative z-50"> */}
         <div className={`${showNav ? "" : "overflow-hidden"} relative z-50`}>
           <div
             className={`${
@@ -65,7 +85,10 @@ const Navbar = () => {
                             {navMenu?.children &&
                               navMenu.children.length > 0 && (
                                 <div className="border border-[#000] p-1 -mt-2">
-                                  <DownArrowIcon className="w-4 cursor-pointer text-[#000]" />
+                                  <DownArrowIcon
+                                    className="w-4 cursor-pointer text-[#000]"
+                                    fill="black"
+                                  />
                                 </div>
                               )}
                           </div>
@@ -78,10 +101,6 @@ const Navbar = () => {
                             </Link>
                           </div>
                         </div>
-                        {/* <div className="w-20 group-hover:w-24 md:group-hover:w-40 duration-300 h-0 border border-white-100 group-hover:border-yellow-200"></div>
-                      <div className="font-bold text-2xl md:text-5xl group-hover:text-yellow-200">
-                        0{index}
-                      </div> */}
                       </div>
 
                       {openMenuIndex === index && (
@@ -114,7 +133,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        {/*  */}
         <Container className="relative z-50">
           <div
             className="absolute z-0 right-0 top-0 w-60 h-60 rounded-full overflow-hidden blur-3xl opacity-40 pointer-events-none"
@@ -136,9 +154,9 @@ const Navbar = () => {
               <div className="flex gap-4 items-center justify-center">
                 <div className="flex gap-4">
                   <div
-                    className={`hidden md:block ${showNav ? "opacity-0" : ""}`}
+                    className={`hidden lg:block ${showNav ? "opacity-0" : ""}`}
                   >
-                    <ul className="flex gap-x-6 text-white-200">
+                    {/* <ul className="flex gap-x-6 text-white-200">
                       <li>
                         <Link href="/about">About</Link>
                       </li>
@@ -149,11 +167,57 @@ const Navbar = () => {
                         <Link href="/sponsors">Sponsors</Link>
                       </li>
                       <li>
-                        <Link href="/">Contact Us</Link>
+                        <Link href="/cfp">CFP</Link>
+                      </li>
+                      <li>
+                        <Link href="/contact-us">Contact Us</Link>
                       </li>
                       <li className="border border-white-100" />
+                    </ul> */}
+                    <ul className="flex text-white-100 gap-8" id="submenubox">
+                      {NavMenuItems.map((navMenu, index) => (
+                        <div
+                          key={index}
+                          className="flex flex-col duration-500 delay-500 cursor-pointer relative"
+                        >
+                          <li
+                            className="uppercase flex justify-center items-center gap-1"
+                            onClick={() => handleOpenNavMenus(index)}
+                          >
+                            <Link href={navMenu.slug}>{navMenu.name}</Link>
+                            {navMenu?.children &&
+                              navMenu?.children.length > 0 && (
+                                <DownArrowIcon
+                                  className={`w-4 cursor-pointer text-[#000] ${
+                                    showNavMenus === index ? "rotate-180" : ""
+                                  }`}
+                                  fill="white"
+                                />
+                              )}
+                          </li>
+
+                          {showNavMenus === index && (
+                            <div
+                              className={`opacity- overflow-hidde duration-75 group-hover:opacity-100 absolute top-10 bg-white-100 lg:w-60 rounded-md`}
+                            >
+                              {navMenu?.children?.map((child, childIndex) => (
+                                <Link
+                                  key={childIndex}
+                                  href={child.slug}
+                                  onClick={() => setShowNavMenus(-1)}
+                                >
+                                  <li className="text-[#000] px-4 py-2 font-semibold hover:bg-gray-100 hover:text-white-100">
+                                    {child.name}
+                                  </li>
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
                     </ul>
                   </div>
+                  {/* Hamburger */}
                   <div className="pr-4 relative z-50">
                     <button
                       className="flex flex-col gap-2 items-end"

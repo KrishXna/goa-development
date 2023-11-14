@@ -30,8 +30,8 @@ const Footer = ({ className }: Props) => {
                   <li>25th - 27th April 2023</li>
                   <li>8:30 AM - 7:00 PM</li>
                   <li>Planet Hollywood Resort, Goa</li>
-                  <li className="font-bold">Admin@bsidesgoa.in</li>
-                  <li className="font-bold">Sponsor@bsidesgoa.in</li>
+                  <li className="font-bold">hello@bsidesgoa.com</li>
+                  <li className="font-bold">Sponsor@bsidesgoa.com</li>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">

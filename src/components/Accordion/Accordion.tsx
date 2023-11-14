@@ -27,7 +27,7 @@ const Accordion = ({ head, body }: Props) => {
           className="w-8 
         transition-all"
         >
-          {isActive ? <CloseArrowIcon /> : <DownArrowIcon />}
+          {isActive ? <CloseArrowIcon /> : <DownArrowIcon fill="white" />}
         </div>
       </div>
       <div className={`w-full overflow-hidden px-8`}>

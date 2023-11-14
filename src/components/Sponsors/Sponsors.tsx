@@ -200,8 +200,8 @@ const Sponsors = () => {
         {/* 8 */}
         <div className="flex flex-col gap-4">
           <div>
-            <span className="text-white-100">GOODIE BAG </span>
-            <span className="text-yellow-200">SPONSORS</span>
+            <span className="text-white-100">COMMUNITY </span>
+            <span className="text-yellow-200 uppercase">Partnership</span>
           </div>
           <div>
             <div className="flex flex-wrap justify-center gap-10">
@@ -212,7 +212,7 @@ const Sponsors = () => {
           </div>
         </div>
         {/* 9 */}
-        <div className="flex flex-col gap-4">
+        {/* <div className="flex flex-col gap-4">
           <div>
             <span className="text-white-100">GOODIE BAG </span>
             <span className="text-yellow-200">SPONSORS</span>
@@ -224,7 +224,7 @@ const Sponsors = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/*  */}
       </div>

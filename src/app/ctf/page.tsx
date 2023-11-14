@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@/components/Container";
 import CTFImg from "@/assets/tinified/ctf.png";
-import Sponsors from "@/components/Sponsors/Sponsors";
+// import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 
 const page = () => {
@@ -48,7 +48,7 @@ const page = () => {
             ready to rise to the challenge at BSides Goa CTF!
           </p>
         </div>
-        <Sponsors />
+        {/* <Sponsors /> */}
       </Container>
     </>
   );
