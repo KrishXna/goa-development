@@ -67,7 +67,7 @@ const Navbar = () => {
                 ? "translate-x-0 translate-y-auto overflow-auto h-scree"
                 : "translate-x-full"
             }
-            bg-[#1A1D23] border border-white-100 z-50 absolute right-0 duration-300 delay-150 w-full lg:w-1/2`}
+            bg-[#1A1D23 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full lg:w-1/2`}
           >
             <div>
               <div className="w-full text-white-100 p-2 sm:p-6 pb-10 flex flex-col justify-center items-center gap-4 mt-20">
@@ -79,7 +79,7 @@ const Navbar = () => {
                     key={index}
                   >
                     <div className="flex flex-col gap-2 group w-full">
-                      <div className="flex justify-end pr-10 items-center gap-2 bg-white-100 group-hover:bg-yellow-200 duration-150 py-2 rounded-full">
+                      <div className="flex justify-end pr-10 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-full">
                         <div className="flex justify-end items-center gap-2 duration-300">
                           <div onClick={() => handleOpenMenu(index)}>
                             {navMenu?.children &&
@@ -104,7 +104,7 @@ const Navbar = () => {
                       </div>
 
                       {openMenuIndex === index && (
-                        <ul className="relative text-[#000] font-semibold text-xl md:text-3xl flex flex-col items-end gap-5 w-full">
+                        <ul className="relative text-[#000] font-semibold text-xl md:text-3xl flex flex-col items-end gap-1 w-full">
                           {navMenu?.children &&
                             navMenu?.children.length > 0 &&
                             navMenu?.children.map((child, childIndex) => (
@@ -112,8 +112,8 @@ const Navbar = () => {
                                 className="flex justify-end gap-2 w-full"
                                 key={childIndex}
                               >
-                                <div className="mt-2 w-full">
-                                  <li className="bg-white-100 hover:bg-yellow-200 rounded-full py-2 text-end pr-10">
+                                <div className="w-full">
+                                  <li className="bg-white-100 hover:bg-gray-100/20 rounded-full py-2 text-end pr-10">
                                     <Link
                                       href={child.slug}
                                       onClick={() => setShowNav(false)}
