@@ -72,10 +72,10 @@ const Navbar = () => {
                 ? "translate-x-0 translate-y-auto overflow-auto h-scree"
                 : "translate-x-full"
             }
-            bg-[#1A1D23 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full lg:w-1/2`}
+            bg-[#1A1D23 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full md:w-1/2 lg:w-1/3`}
           >
             <div>
-              <div className="w-full text-white-100 p-2 sm:p-6 pb-10 flex flex-col justify-center items-center gap-4 mt-20">
+              <div className="w-full text-white-100 pb-10 flex flex-col justify-center items-center gap-2 mt-20">
                 {NavMenuItems.map((navMenu, index) => (
                   <div
                     className={`flex gap-4 justify-end ${
@@ -84,20 +84,20 @@ const Navbar = () => {
                     key={index}
                   >
                     <div className="flex flex-col gap-2 group w-full">
-                      <div className="flex justify-end pr-10 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-full">
-                        <div className="flex justify-end items-center gap-2 duration-300">
+                      <div className="flex justify-end pr-10 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-ful">
+                        <div className="flex justify-end items-center gap-2 duration-300 w-full">
                           <div onClick={() => handleOpenMenu(index)}>
                             {navMenu?.children &&
                               navMenu.children.length > 0 && (
-                                <div className="border border-[#000] p-1 -mt-2">
+                                <div className="border border-[#000]">
                                   <DownArrowIcon
-                                    className="w-4 cursor-pointer text-[#000]"
+                                    className="w-3 cursor-pointer text-[#000]"
                                     fill="black"
                                   />
                                 </div>
                               )}
                           </div>
-                          <div className="text-[#000] font-bold text-2xl md:text-3xl uppercase">
+                          <div className="text-[#000] font-bold text-base uppercase">
                             <Link
                               href={navMenu.slug}
                               onClick={() => setShowNav(false)}
@@ -109,7 +109,7 @@ const Navbar = () => {
                       </div>
 
                       {openMenuIndex === index && (
-                        <ul className="relative text-[#000] font-semibold text-xl md:text-3xl flex flex-col items-end gap-1 w-full">
+                        <ul className="relative text-[#000] font-semibold text-base flex flex-col items-end gap-1 w-full">
                           {navMenu?.children &&
                             navMenu?.children.length > 0 &&
                             navMenu?.children.map((child, childIndex) => (
@@ -118,7 +118,7 @@ const Navbar = () => {
                                 key={childIndex}
                               >
                                 <div className="w-full">
-                                  <li className="bg-white-100 hover:bg-gray-100/20 rounded-full py-2 text-end pr-10">
+                                  <li className="hover:bg-gray-100/20 rounded-ful py-2 text-end pr-10">
                                     <Link
                                       href={child.slug}
                                       onClick={() => setShowNav(false)}
