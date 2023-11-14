@@ -227,37 +227,29 @@ const page = () => {
                     <td className="rounded-l-lg py-5 border-r border-white-100">
                       STUDENT PASS
                     </td>
-                    <td className="px-6 py-4 border-r border-white-100">
-                      4499
-                    </td>
-                    <td className="px-6 py-4">85</td>
+                    <td className="px-6 py-4 border-r border-white-100">TBD</td>
+                    <td className="px-6 py-4">TBD</td>
                   </tr>
                   <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
                     <td className="rounded-l-lg py-5 border-r border-white-100">
                       INDIVIDUAL PASS
                     </td>
-                    <td className="px-6 py-4 border-r border-white-100">
-                      9999
-                    </td>
-                    <td className="px-6 py-4 rounded-r-lg">185</td>
+                    <td className="px-6 py-4 border-r border-white-100">TBD</td>
+                    <td className="px-6 py-4 rounded-r-lg">TBD</td>
                   </tr>
                   <tr className="text-center text-white-100/90 text-xl font-semibold">
                     <td className="rounded-l-lg py-5 border-r border-white-100">
                       CORPORATE PASS
                     </td>
-                    <td className="px-6 py-4 border-r border-white-100">
-                      14999
-                    </td>
-                    <td className="px-6 py-4">275</td>
+                    <td className="px-6 py-4 border-r border-white-100">TBD</td>
+                    <td className="px-6 py-4">TBD</td>
                   </tr>
                   <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
                     <td className="rounded-l-lg py-5 border-r border-white-100">
                       3 DAYS TRAINING PASS
                     </td>
-                    <td className="px-6 py-4 border-r border-white-100">
-                      45499
-                    </td>
-                    <td className="px-6 py-4 rounded-r-lg">840</td>
+                    <td className="px-6 py-4 border-r border-white-100">TBD</td>
+                    <td className="px-6 py-4 rounded-r-lg">TBD</td>
                   </tr>
                 </tbody>
               </table>
