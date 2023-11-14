@@ -52,6 +52,11 @@ const Navbar = () => {
     };
   }, []);
 
+  const getVariableName = (index: any) => {
+    const variableNames = ["a", "b", "c", "d", "e", "f", "g"];
+    return variableNames[index];
+  };
+
   return (
     <>
       {showNav && <div className="fixed inset-0 z-[25] backdrop-blur-md" />}
@@ -118,6 +123,7 @@ const Navbar = () => {
                                       href={child.slug}
                                       onClick={() => setShowNav(false)}
                                     >
+                                      {getVariableName(childIndex)}.{" "}
                                       {child.name}
                                     </Link>
                                   </li>
