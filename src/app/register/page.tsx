@@ -182,7 +182,7 @@ const page = () => {
                     >
                       For 4 or more participants
                     </td>
-                    <td className="px-6 rounded-r-lg py-5">5%</td>
+                    <td className="px-6 rounded-r-lg py-5">TBD</td>
                   </tr>
                 </tbody>
               </table>

@@ -84,7 +84,7 @@ const Navbar = () => {
                     key={index}
                   >
                     <div className="flex flex-col gap-2 group w-full">
-                      <div className="flex justify-end pr-10 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-ful">
+                      <div className="flex justify-end pr-10 md:pr-20 xl:pr-32 items-center gap-2 bg-white-100 group-hover:bg-gray-100/20 duration-150 py-2 rounded-ful">
                         <div className="flex justify-end items-center gap-2 duration-300 w-full">
                           <div onClick={() => handleOpenMenu(index)}>
                             {navMenu?.children &&
@@ -109,7 +109,7 @@ const Navbar = () => {
                       </div>
 
                       {openMenuIndex === index && (
-                        <ul className="relative text-[#000] font-semibold text-base flex flex-col items-end gap-1 w-full">
+                        <ul className="relative text-[#000] font-semibold text-base flex flex-col items-end gap-1 w-full lg:pr-10">
                           {navMenu?.children &&
                             navMenu?.children.length > 0 &&
                             navMenu?.children.map((child, childIndex) => (
@@ -139,6 +139,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        {/* Mobile Menu */}
         <Container className="relative z-50">
           <div
             className="absolute z-0 right-0 top-0 w-60 h-60 rounded-full overflow-hidden blur-3xl opacity-40 pointer-events-none"
