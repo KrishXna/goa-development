@@ -68,7 +68,7 @@ const Footer = ({ className }: Props) => {
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                   <li className="text-white-100 text-xl hover:text-yellow-200">
-                    <Link href="/Schedule">Schedule </Link>
+                    <Link href="/schedule">Schedule </Link>
                   </li>
                   <li className="hover:text-yellow-200">
                     <Link href="/trainings">Trainings</Link>
