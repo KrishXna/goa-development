@@ -42,7 +42,7 @@ const Mentors = () => {
       linkedin: "https://www.linkedin.com/in/adityaks/",
     },
     {
-      name: "Fernando",
+      name: "Fernando Gont",
       image: Fernando,
       image2: Fernando,
       title: "Staff Platform Security Engineer at Yalo",
@@ -50,7 +50,7 @@ const Mentors = () => {
       linkedin: "https://www.linkedin.com/in/fernandogont/",
     },
     {
-      name: "Sapan",
+      name: "Sapan T.",
       image: Sapan,
       image2: Sapan,
       title:

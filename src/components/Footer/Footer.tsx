@@ -68,19 +68,23 @@ const Footer = ({ className }: Props) => {
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
                   <li className="text-white-100 text-xl hover:text-yellow-200">
-                    Schedule
+                    <Link href="/Schedule">Schedule </Link>
                   </li>
                   <li className="hover:text-yellow-200">
                     <Link href="/trainings">Trainings</Link>
                   </li>
                   <li className="hover:text-yellow-200">
-                    <Link href="#">Speakers</Link>
+                    <Link href="/speaker">Speakers</Link>
                   </li>
                   <li className="hover:text-yellow-200">
                     <Link href="/ctf">CTF</Link>
                   </li>
-                  <li className="hover:text-yellow-200">Live Hacking Event</li>
-                  <li className="hover:text-yellow-200">Career Carnival</li>
+                  <li className="hover:text-yellow-200">
+                    <Link href="/live-event-hacking">Live Hacking Event</Link>
+                  </li>
+                  <li className="hover:text-yellow-200">
+                    <Link href="/career-carnival">Career Carnival</Link>
+                  </li>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
@@ -88,13 +92,15 @@ const Footer = ({ className }: Props) => {
                   <li className="text-white-100 text-xl hover:text-yellow-200">
                     <Link href="/sponsors">Sponsors</Link>
                   </li>
-                  <li className="hover:text-yellow-200">Community Partner</li>
+                  {/* <li className="hover:text-yellow-200">Community Partner</li> */}
                   <li className="font-bold hover:text-yellow-200">
                     <Link href="/register">Register</Link>
                   </li>
-                  <li className="hover:text-yellow-200">Community Partner</li>
+                  <li className="hover:text-yellow-200">
+                    <Link href="#">Community Partner</Link>
+                  </li>
                   <li className="font-bold hover:text-yellow-200">
-                    Contact Us
+                    <Link href="/contact-us">Contact Us</Link>
                   </li>
                   <li>
                     <SocialIcons className="gap-2" />
