@@ -1,13 +1,11 @@
 import React from "react";
 import JackDaniel from "@/assets/Mentorslandingpage/jackdaniel.png";
-import JackDaniel2 from "@/assets/Mentorslandingpage/jackdanielv2.png";
-
+// import JackDaniel2 from "@/assets/Mentorslandingpage/jackdanielv2.png";
 import VandanaVerma from "@/assets/Mentorslandingpage/vandana.png";
-import VandanaVerma2 from "@/assets/Mentorslandingpage/vandanav2.png";
-
+// import VandanaVerma2 from "@/assets/Mentorslandingpage/vandanav2.png";
 import AdityaSood from "@/assets/Mentorslandingpage/adityasood.png";
 import Fernando from "@/assets/Mentorslandingpage/fernando.png";
-import Fernando2 from "@/assets/Mentorslandingpage/fernandov2.png";
+// import Fernando2 from "@/assets/Mentorslandingpage/fernandov2.png";
 import Sapan from "@/assets/Mentorslandingpage/sapna.png";
 import ArjunThusu from "@/assets/Mentorslandingpage/arjjunthusu.png";
 import Container from "@/components/Container";
@@ -20,7 +18,7 @@ const Mentors = () => {
     {
       name: "Jack Daniel",
       image: JackDaniel,
-      image2: JackDaniel2,
+      image2: JackDaniel,
       title: "Co-founder Security BSides",
       twitter: "https://twitter.com/@jack_daniel",
       linkedin: "https://www.linkedin.com/in/jackadaniel/",
@@ -28,7 +26,7 @@ const Mentors = () => {
     {
       name: "Vandana Verma",
       image: VandanaVerma,
-      image2: VandanaVerma2,
+      image2: VandanaVerma,
       title:
         "Security Leader @ Snyk | OWASP BoD | President InfosecGirls | DevRel, SecRel, opensource",
       twitter: "https://twitter.com/@InfosecVandana",
@@ -46,7 +44,7 @@ const Mentors = () => {
     {
       name: "Fernando",
       image: Fernando,
-      image2: Fernando2,
+      image2: Fernando,
       title: "Staff Platform Security Engineer at Yalo",
       twitter: "https://twitter.com/@FernandoGont",
       linkedin: "https://www.linkedin.com/in/fernandogont/",

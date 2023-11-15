@@ -270,6 +270,7 @@ const page = () => {
                 className="inline-block"
               >
                 Register Now
+                <br /> (Comming Soon)
               </Button>
             </div>
           </div>
