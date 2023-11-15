@@ -2,145 +2,46 @@ import React from "react";
 import Container from "@/components/Container";
 import BannerImg from "@/assets/tinified/cfp.png";
 import Banner from "@/components/Banner/Banner";
-import jacobSmith from "@/assets/Images/jacob-smith.png";
-import Adrian from "@/assets/Images/adrian.png";
-import YashMittal from "@/assets/Images/yash-mittal.png";
-import BryceCase from "@/assets/Images/bryce-case.png";
-import ChristopherBrown from "@/assets/Images/christopher-brown.png";
-import AloysiusCheang from "@/assets/Images/aloysius-cheang.png";
-import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
-import Anthony from "@/assets/Images/anthony.png";
+import jacobSmith from "@/assets/Silhoutte.png";
+
 import { Usercard } from "@/components/Card";
 import { BgCircuitRight } from "@/assets/Icons";
 const page = () => {
   const data = [
     {
-      name: "Jacob Smith",
+      name: "To be announce Soon",
       image: jacobSmith,
-      image2: YashMittal,
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      image2: jacobSmith,
+      title: "To be announce Soon",
     },
     {
-      name: "Adrian",
-      image: Adrian,
-      image2: YashMittal,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: YashMittal,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: YashMittal,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Christopher Brown",
-      image: ChristopherBrown,
-      image2: YashMittal,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
-    // {
-    //   name: "Aloysius Cheang",
-    //   image: AloysiusCheang,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Bryce Case",
-    //   image: BryceCase,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Anthony",
-    //   image: Anthony,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Jacob Smith",
-    //   image: jacobSmith,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Adrian",
-    //   image: Adrian,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Yash Mittal",
-    //   image: YashMittal,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Rowan Sullivan",
-    //   image: RowanSullivan,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Christopher Brown",
-    //   image: ChristopherBrown,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Aloysius Cheang",
-    //   image: AloysiusCheang,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Bryce Case",
-    //   image: BryceCase,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
-    // {
-    //   name: "Anthony",
-    //   image: Anthony,
-    //   image2: YashMittal,
-
-    //   title:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    // },
   ];
   return (
     <>

@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <div className="relative">
         <Container>
-          <div className="md:flex justify-between pt-2 md:pt-10">
+          <div className="md:flex justify-between pt-2">
             <div className="text-3xl md:text-5xl font-bold max-w-sm text-yellow-200 text-left">
               BSIDES GOA <br />
               <span className="text-white-100">SECURITY</span> CONFERENCE

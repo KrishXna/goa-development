@@ -3,59 +3,97 @@ import Container from "@/components/Container";
 import VolunteersImg from "@/assets/tinified/voluntteer.png";
 import Banner from "@/components/Banner/Banner";
 import { Usercard } from "@/components/Card";
-import Adrian from "@/assets/Images/adrian.png";
-import YashMittal from "@/assets/Images/yash-mittal.png";
-import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
+// import Adrian from "@/assets/Images/adrian.png";
+// import YashMittal from "@/assets/Images/yash-mittal.png";
+// import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
 import { BgCircuitRight } from "@/assets/Icons";
+import jacobSmith from "@/assets/Silhoutte.png";
 
 const page = () => {
+  // const data = [
+  //   {
+  //     name: "Adrian",
+  //     image: Adrian,
+  //     image2: YashMittal,
+  //     title:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  //   },
+  //   {
+  //     name: "Rowan Sullivan",
+  //     image: RowanSullivan,
+  //     image2: Adrian,
+
+  //     title:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  //   },
+  //   {
+  //     name: "Yash Mittal",
+  //     image: YashMittal,
+  //     image2: YashMittal,
+
+  //     title:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  //   },
+  //   {
+  //     name: "Adrian",
+  //     image: Adrian,
+  //     image2: RowanSullivan,
+
+  //     title:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  //   },
+  //   {
+  //     name: "Rowan Sullivan",
+  //     image: RowanSullivan,
+  //     image2: YashMittal,
+
+  //     title:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  //   },
+  //   {
+  //     name: "Yash Mittal",
+  //     image: YashMittal,
+  //     image2: RowanSullivan,
+
+  //     title:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  //   },
+  // ];
+
   const data = [
     {
-      name: "Adrian",
-      image: Adrian,
-      image2: YashMittal,
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
+      title: "To be announce Soon",
     },
     {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: Adrian,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: YashMittal,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Adrian",
-      image: Adrian,
-      image2: RowanSullivan,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: YashMittal,
+      name: "To be announce Soon",
+      image: jacobSmith,
+      image2: jacobSmith,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: RowanSullivan,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
   ];
   return (

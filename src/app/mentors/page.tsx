@@ -36,20 +36,20 @@ const page = () => {
     },
     {
       image: Fernando,
-      name: "Jack Daniel",
+      name: "Fernando",
       bio: "Fernando Gont specializes in the field of communications protocols security, andhas consulted for private and governmental organizations from around the worldfor more than 20 years.Fernando Gont currently serves as Staff Platform Security Engineer at Yalo.Before joining Yalo, he served as Security Consultant and Researcher at SI6Networks, Director of Information Security at EdgeUno, and consulted fororganizations such as the UK National Infrastructure Security Co-ordinationCentre (NISCC), the UK Centre for the Protection of National Infrastructure(CPNI), and Huawei Technologies Ltd.Gont has been active in the Internet Engineering Task Force (IETF) for morethan 20 years, and has published 40 IETF RFCs (Request For Comments).Gont has also been involved in a number of open source projects, including theSI6 Networks&apos; IPv6 Toolkit — a portable and comprehensive security asessmenttoolkit for the IPv6 protocol suite. He has also contributed to the OpenBSD andFreeBSD operating systems, and to the Linux kernel.Gont has been a speaker at a number of conferences and technical meetingsabout   information   security,   operating   systems,   and   Internet   engineering,including: CanSecWest 2005, Kernel Conference Australia 2009, DEEPSEC2009, HACK.LU 2011, Hackito Ergo Sum 2012, Hack In Paris 2013, Troopers2018, H2HC 2022, and KubeCon/CloudNativeCon Europe 2023. Additionally,he is a regular attendee of the Internet Engineering Task Force (IETF) meetings",
       alter: false,
     },
     {
       image: Sapan,
-      name: "Jack Daniel",
+      name: "Sapan",
       bio: "Sapan is a seasoned practitioner with 25+ years of industry experience in areas including Information Technology, Information Security,  Cyber Resilience,  Cyber & Digital Transformation, Data privacy and Information Risk management. He holds extensive Global experience in establishing Technology programs, Security Centre of Excellence, Risk management & Compliance frameworks while leading and managing highly skilled teams.In a prolonged career, Sapan has been associated with multinationals including IBM, Hughes, Canon, Genpact, Aon, Adobe, Tower Research Capital and Perfetti Van Melle in various individual, team and senior management roles, working towards producing desired results, while partnering with stakeholders to enable business growth.",
 
       alter: true,
     },
     {
       image: ArjunThusu,
-      name: "Jack Daniel",
+      name: "Arjun Thusu",
       bio: "Arjun Thusu is Chief Information Officer at Mercury Financial, where he applies his experience and expertise to guide technology initiatives that ensure the integrity, availability, and confidentiality of customer and corporate data, infrastructure, and services. He brings more than 15 years of experience in technology, cyber security and risk management to his role. Prior to Mercury Financial, he held leadership positions at Viasat, Worldpay, YapStone, Home Depot, and Dell SecureWorks. Thusu holds a B.S. in Computer Information Systems and an M.B.A. in International Business from Saginaw Valley State University.",
       alter: false,
     },
