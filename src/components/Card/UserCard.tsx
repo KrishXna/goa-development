@@ -14,6 +14,7 @@ type Props = {
 
 const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
   const [showSecondImg, setShowSecondImg] = useState(false);
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       setShowSecondImg((prev) => !prev);
@@ -24,31 +25,33 @@ const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
     <>
       <div className="max-w-[300px] p-6 group">
         <div className="text-center group-hover cursor-pointer group-hover:rounded-lg">
-          <div className="relative">
-            <div
-              className={`absolute inset-0 top-0 duration-300
+          <Link href="/mentors">
+            <div className="relative">
+              <div
+                className={`absolute inset-0 top-0 duration-300
             ${showSecondImg ? "opacity-0" : ""}`}
-            >
-              <div className="flex justify-center items-center">
-                <div className={`w-44 h-44 rounded-full overflow-hidden`}>
+              >
+                <div className="flex justify-center items-center">
+                  <div className={`w-44 h-44 rounded-full overflow-hidden`}>
+                    <img
+                      src={img}
+                      alt={`${name} img`}
+                      className="group-hover:scale-105 duration-200"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className={`flex justify-center items-center duration-300`}>
+                <div className="w-44 h-44 rounded-full overflow-hidden">
                   <img
-                    src={img}
-                    alt={`${name} img`}
+                    src={src}
+                    alt={`${name}img`}
                     className="group-hover:scale-105 duration-200"
                   />
                 </div>
               </div>
             </div>
-            <div className={`flex justify-center items-center duration-300`}>
-              <div className="w-44 h-44 rounded-full overflow-hidden">
-                <img
-                  src={src}
-                  alt={`${name}img`}
-                  className="group-hover:scale-105 duration-200"
-                />
-              </div>
-            </div>
-          </div>
+          </Link>
           <div
             className="relative -top-4 gap-10 rounded-full py-2 inline-block px-8"
             style={{

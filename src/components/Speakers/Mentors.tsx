@@ -1,13 +1,15 @@
 import React from "react";
-import JackDaniel from "@/assets/mentors/jackdaniel.jpg";
-import JackDaniel2 from "@/assets/mentors/jackdanielv2.jpg";
-import VandanaVerma from "@/assets/mentors/vandana.jpg";
-import VandanaVerma2 from "@/assets/mentors/vandanav2.jpg";
-import AdityaSood from "@/assets/mentors/Aditya_Sood.png";
-import Fernando from "@/assets/mentors/fernando.jpg";
-import Fernando2 from "@/assets/mentors/fernandov2.jpg";
-import Sapan from "@/assets/mentors/sapna.jpg";
-import ArjunThusu from "@/assets/mentors/arjjunthusu.jpg";
+import JackDaniel from "@/assets/Mentorslandingpage/jackdaniel.png";
+import JackDaniel2 from "@/assets/Mentorslandingpage/jackdanielv2.png";
+
+import VandanaVerma from "@/assets/Mentorslandingpage/vandana.png";
+import VandanaVerma2 from "@/assets/Mentorslandingpage/vandanav2.png";
+
+import AdityaSood from "@/assets/Mentorslandingpage/adityasood.png";
+import Fernando from "@/assets/Mentorslandingpage/fernando.png";
+import Fernando2 from "@/assets/Mentorslandingpage/fernandov2.png";
+import Sapan from "@/assets/Mentorslandingpage/sapna.png";
+import ArjunThusu from "@/assets/Mentorslandingpage/arjjunthusu.png";
 import Container from "@/components/Container";
 import DotImage from "@/assets/Images/dotsimg.png";
 import { LineIcons, ArrowRightIcon } from "@/assets/Icons";

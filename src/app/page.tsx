@@ -1,4 +1,3 @@
-import Speakers from "@/components/Speakers/Speakers";
 import Glimpse from "@/components/GlimpseSection/Glimse";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import { BgCircleIcon } from "@/assets/Icons";
@@ -11,7 +10,6 @@ export default function Home() {
       <Hero />
       <div className="relative overflow-hidden">
         <BgCircleIcon className="absolute top-0" />
-        {/* <Speakers /> */}
         <Mentors />
         <Glimpse />
         <Sponsors />
