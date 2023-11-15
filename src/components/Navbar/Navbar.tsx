@@ -3,7 +3,6 @@ import React, { useState, useEffect, use } from "react";
 import Container from "@/components/Container";
 import Image from "next/image";
 import Logo from "@/assets/Images/logo.png";
-import BgCircuit from "@/assets/Icons/BgCircuit";
 import { DownArrowIcon } from "@/assets/Icons";
 import { NavMenuItems } from "../NavMenuItems/NavMenuItems";
 import { usePathname } from "next/navigation";
@@ -52,10 +51,10 @@ const Navbar = () => {
     };
   }, []);
 
-  const getVariableName = (index: any) => {
-    const variableNames = ["a", "b", "c", "d", "e", "f", "g"];
-    return variableNames[index];
-  };
+  // const getVariableName = (index: any) => {
+  //   const variableNames = ["a", "b", "c", "d", "e", "f", "g"];
+  //   return variableNames[index];
+  // };
 
   return (
     <>
@@ -123,7 +122,7 @@ const Navbar = () => {
                                       href={child.slug}
                                       onClick={() => setShowNav(false)}
                                     >
-                                      {getVariableName(childIndex)}.{" "}
+                                      {/* {getVariableName(childIndex)}.{" "} */}
                                       {child.name}
                                     </Link>
                                   </li>
