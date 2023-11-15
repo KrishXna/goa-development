@@ -39,7 +39,7 @@ export const NavMenuItems: NavMenu[] = [
     name: "SPONSORS",
     slug: "/sponsors",
     children: [
-      { name: "Community Partnership", slug: "/community-partnership" },
+      // { name: "Community Partnership", slug: "/community-partnership" },
     ],
   },
   {

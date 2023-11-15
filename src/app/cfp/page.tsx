@@ -53,94 +53,94 @@ const page = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
     },
-    {
-      name: "Aloysius Cheang",
-      image: AloysiusCheang,
-      image2: YashMittal,
+    // {
+    //   name: "Aloysius Cheang",
+    //   image: AloysiusCheang,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Bryce Case",
-      image: BryceCase,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Bryce Case",
+    //   image: BryceCase,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Anthony",
-      image: Anthony,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Anthony",
+    //   image: Anthony,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Jacob Smith",
-      image: jacobSmith,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Jacob Smith",
+    //   image: jacobSmith,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Adrian",
-      image: Adrian,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Adrian",
+    //   image: Adrian,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Yash Mittal",
+    //   image: YashMittal,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Rowan Sullivan",
+    //   image: RowanSullivan,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Christopher Brown",
-      image: ChristopherBrown,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Christopher Brown",
+    //   image: ChristopherBrown,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Aloysius Cheang",
-      image: AloysiusCheang,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Aloysius Cheang",
+    //   image: AloysiusCheang,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Bryce Case",
-      image: BryceCase,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Bryce Case",
+    //   image: BryceCase,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Anthony",
-      image: Anthony,
-      image2: YashMittal,
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
+    // {
+    //   name: "Anthony",
+    //   image: Anthony,
+    //   image2: YashMittal,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    // },
   ];
   return (
     <>
