@@ -21,7 +21,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Adrian",
@@ -30,7 +30,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Yash Mittal",
@@ -39,7 +39,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Rowan Sullivan",
@@ -48,7 +48,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Christopher Brown",
@@ -57,7 +57,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Aloysius Cheang",
@@ -66,7 +66,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Bryce Case",
@@ -75,7 +75,7 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
     {
       name: "Anthony",
@@ -84,15 +84,12 @@ const Speakers = () => {
       title:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
       twitter: "",
-      facebook: "",
+      linkedin: "",
     },
   ];
 
   return (
-    <div
-      className="w-full bg-cover bg-no-repeat bg-center object-contain relative z-20 overflow-hidden"
-      // style={{ backgroundImage: `url(${DotImage.src})` }}
-    >
+    <div className="w-full bg-cover bg-no-repeat bg-center object-contain relative z-20 overflow-hidden">
       <div className="relative overflow-hidden">
         <div className="w-full h-full">
           <img
@@ -120,7 +117,7 @@ const Speakers = () => {
                   name={item.name}
                   title={item.title}
                   twitter={item.twitter}
-                  facebook={item.facebook}
+                  linkedin={item.linkedin}
                 />
               </>
             ))}

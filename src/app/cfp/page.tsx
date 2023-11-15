@@ -11,6 +11,7 @@ import AloysiusCheang from "@/assets/Images/aloysius-cheang.png";
 import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
 import Anthony from "@/assets/Images/anthony.png";
 import { Usercard } from "@/components/Card";
+import { BgCircuitRight } from "@/assets/Icons";
 const page = () => {
   const data = [
     {
@@ -143,23 +144,29 @@ const page = () => {
   ];
   return (
     <>
-      <Banner text="CFP REVIEW PANEL" image={BannerImg.src} />
-      <Container glowEffect className="relative z-20">
-        <div className="flex flex-col gap-8">
-          <h2 className="text-white-100 font-bold text-3xl">Review Panel </h2>
-          <div className="flex flex-wrap justify-center">
-            {data.map((item) => (
-              <Usercard
-                key={item.name}
-                src={item.image.src}
-                img={item.image2?.src}
-                name={item.name}
-                title={item.title}
-              />
-            ))}
-          </div>
+      <div className="relative z-20">
+        <div className="absolute right-0 bottom-0">
+          <BgCircuitRight className="w-full" />
         </div>
-      </Container>
+
+        <Banner text="CFP REVIEW PANEL" image={BannerImg.src} />
+        <Container glowEffect className="relative z-20">
+          <div className="flex flex-col gap-8">
+            <h2 className="text-white-100 font-bold text-3xl">Review Panel </h2>
+            <div className="flex flex-wrap justify-center">
+              {data.map((item) => (
+                <Usercard
+                  key={item.name}
+                  src={item.image.src}
+                  img={item.image2?.src}
+                  name={item.name}
+                  title={item.title}
+                />
+              ))}
+            </div>
+          </div>
+        </Container>
+      </div>
     </>
   );
 };

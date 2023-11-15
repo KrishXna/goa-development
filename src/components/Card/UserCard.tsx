@@ -1,5 +1,6 @@
 "use client";
 import { LinkedinIcon, TwitterIcon } from "@/assets/Icons";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 type Props = {
@@ -8,10 +9,10 @@ type Props = {
   name: string;
   title: string;
   twitter?: string;
-  facebook?: string;
+  linkedin?: string;
 };
 
-const UserCard = ({ src, name, title, twitter, facebook, img }: Props) => {
+const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
   const [showSecondImg, setShowSecondImg] = useState(false);
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -59,14 +60,14 @@ const UserCard = ({ src, name, title, twitter, facebook, img }: Props) => {
               <a href={twitter} target="_blank">
                 <TwitterIcon className="w-8 h-8" />
               </a>
-              <a href={facebook} target="_blank">
+              <a href={linkedin} target="_blank">
                 <LinkedinIcon className="w-8 h-8" />
               </a>
             </div>
           </div>
           <div className="flex justify-center pb-2">
             <div className="flex flex-col gap-2 text-white-100">
-              <h3 className="text-sm font-semibold">{name}</h3>
+              <h3 className="text-sm font-semibold uppercase">{name}</h3>
               <p className="text-xs font-normal max-w-[200px]">{title}</p>
             </div>
           </div>

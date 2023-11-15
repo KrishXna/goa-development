@@ -3,7 +3,7 @@ import EventAccordion from "@/components/EventAccordion/EventAccordion";
 import Container from "@/components/Container";
 import BannerImg from "@/assets/tinified/faq.png";
 import Banner from "@/components/Banner/Banner";
-import { BgCircleIcon } from "@/assets/Icons";
+import { BgCircleIcon, BgCircuitRight } from "@/assets/Icons";
 
 const page = () => {
   const data = [
@@ -39,7 +39,10 @@ const page = () => {
     },
   ];
   return (
-    <div className="w-full overflow-hidden relative">
+    <div className="w-full overflow-hidden relative z-20">
+      <div className="absolute right-0 bottom-0">
+        <BgCircuitRight className="w-full" />
+      </div>
       <BgCircleIcon className="absolute z-0" />
       <Banner text="FAQ" image={BannerImg.src} />
       <Container glowEffect className="relative z-20 lg:pb-10">

@@ -38,7 +38,7 @@ const Hero = () => {
           ></div>
         </div>
         {/* Video */}
-        <div className="relative w-full">
+        <div className="relative">
           <video
             src="/goa.mp4"
             muted
@@ -46,7 +46,8 @@ const Hero = () => {
             autoPlay
             className="w-full h-full"
           ></video>
-          <div className="absolute top-[50%] translate-y-[-50%] right-10 xl:right-36">
+          {/* Social Links */}
+          <div className="absolute top-[50%] translate-y-[-90%] right-10 xl:right-36">
             <div className="hidden lg:flex flex-col gap-y-8 pt-8 justify-center items-center text-lg text-yellow-300">
               <Link
                 href="https://www.instagram.com/bsides_goa/"

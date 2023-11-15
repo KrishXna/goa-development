@@ -30,10 +30,10 @@ const Glimpse = () => {
           <ArrowRightIcon className="w-10" />
         </div>
         <p className="text-sm md:text-base font-semibold text-center text-white-100/80 mt-2 lg:px-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          BSIDES GOA extends its sincere appreciation to our esteemed sponsors
+          whose generous support will make this event possible in 2024. We will
+          proudly acknowledge their commitment to cybersecurity innovation and
+          knowledge sharing
         </p>
       </Container>
     </div>

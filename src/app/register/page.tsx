@@ -10,7 +10,10 @@ import { BgCircuitRight } from "@/assets/Icons";
 
 const page = () => {
   return (
-    <div className="relative">
+    <div className="relative z-20">
+      <div className="absolute right-0 bottom-0">
+        <BgCircuitRight className="w-full h-[60vh]" />
+      </div>
       <Container glowEffect>
         <Banner text="" image={BannerImg.src} />
 

@@ -2,147 +2,73 @@ import React from "react";
 import Container from "@/components/Container";
 import BannerImg from "@/assets/tinified/speaker.png";
 import Banner from "@/components/Banner/Banner";
-import jacobSmith from "@/assets/Images/jacob-smith.png";
-import Adrian from "@/assets/Images/adrian.png";
-import YashMittal from "@/assets/Images/yash-mittal.png";
-import BryceCase from "@/assets/Images/bryce-case.png";
-import ChristopherBrown from "@/assets/Images/christopher-brown.png";
-import AloysiusCheang from "@/assets/Images/aloysius-cheang.png";
-import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
-import Anthony from "@/assets/Images/anthony.png";
 import { Usercard } from "@/components/Card";
+import JackDaniel from "@/assets/mentors/jackdaniel.jpg";
+import JackDaniel2 from "@/assets/mentors/jackdanielv2.jpg";
+import VandanaVerma from "@/assets/mentors/vandana.jpg";
+import VandanaVerma2 from "@/assets/mentors/vandanav2.jpg";
+import AdityaSood from "@/assets/mentors/Aditya_Sood.png";
+import Fernando from "@/assets/mentors/fernando.jpg";
+import Fernando2 from "@/assets/mentors/fernandov2.jpg";
+import Sapan from "@/assets/mentors/sapna.jpg";
+import ArjunThusu from "@/assets/mentors/arjjunthusu.jpg";
+import Mentors from "@/components/Speakers/Mentors";
 
 const page = () => {
-  const data = [
-    {
-      name: "Jacob Smith",
-      image: jacobSmith,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Adrian",
-      image: Adrian,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Christopher Brown",
-      image: ChristopherBrown,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Aloysius Cheang",
-      image: AloysiusCheang,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Bryce Case",
-      image: BryceCase,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Anthony",
-      image: Anthony,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Jacob Smith",
-      image: jacobSmith,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Adrian",
-      image: Adrian,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Christopher Brown",
-      image: ChristopherBrown,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Aloysius Cheang",
-      image: AloysiusCheang,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Bryce Case",
-      image: BryceCase,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-    {
-      name: "Anthony",
-      image: Anthony,
-      image2: YashMittal,
-
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
-    },
-  ];
+  // const data = [
+  //   {
+  //     name: "Jack Daniel",
+  //     image: JackDaniel,
+  //     image2: JackDaniel2,
+  //     title: "Co-founder Security BSides",
+  //     twitter: "@jack_daniel",
+  //     linkedin: "https://www.linkedin.com/in/jackadaniel/",
+  //   },
+  //   {
+  //     name: "Vandana Verma",
+  //     image: VandanaVerma,
+  //     image2: VandanaVerma2,
+  //     title:
+  //       "Security Leader @ Snyk | OWASP BoD | President InfosecGirls | DevRel, SecRel, opensource",
+  //     twitter: "@InfosecVandana",
+  //     linkedin: "https://www.linkedin.com/in/vandana-verma/",
+  //   },
+  //   {
+  //     name: "Aditya Sood",
+  //     image: AdityaSood,
+  //     image2: AdityaSood,
+  //     title:
+  //       "Sr. Director @ F5 | Cyber Security Leader, Advisor, Author of Targeted Cyber Attacks and Empirical Cloud Security Books",
+  //     twitter: "@AdityaKSood",
+  //     linkedin: "https://www.linkedin.com/in/adityaks/",
+  //   },
+  //   {
+  //     name: "Fernando",
+  //     image: Fernando,
+  //     image2: Fernando2,
+  //     title: "Staff Platform Security Engineer at Yalo",
+  //     twitter: "@FernandoGont",
+  //     linkedin: "https://www.linkedin.com/in/fernandogont/",
+  //   },
+  //   {
+  //     name: "Sapan",
+  //     image: Sapan,
+  //     image2: Sapan,
+  //     title:
+  //       "Global CISO @ Perfetti Van Melle | Founder | Board Member | Cyber and Information Risk Practitioner | Speaker | Jury member",
+  //     twitter: "@sapytalwar",
+  //     linkedin: "https://www.linkedin.com/in/sapantalwar/",
+  //   },
+  //   {
+  //     name: "Arjun Thusu",
+  //     image: ArjunThusu,
+  //     image2: ArjunThusu,
+  //     title:
+  //       "Chief Information Officer @ Mercury® Financial | CIO | 5x CISO | Investor | Board Member",
+  //     twitter: "",
+  //     linkedin: "https://www.linkedin.com/in/arjun-t-85a6952",
+  //   },
+  // ];
   return (
     <>
       <Banner text="SPEAKERS" image={BannerImg.src} />
@@ -159,7 +85,7 @@ const page = () => {
             Explore the speaker profiles below and prepare for an exceptional
             learning journey.
           </p>
-          <div className="flex flex-wrap justify-center">
+          {/* <div className="flex flex-wrap justify-center">
             {data.map((item) => (
               <Usercard
                 key={item.name}
@@ -169,9 +95,10 @@ const page = () => {
                 title={item.title}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </Container>
+      <Mentors />
     </>
   );
 };

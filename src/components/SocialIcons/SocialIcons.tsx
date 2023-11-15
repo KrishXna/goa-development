@@ -7,22 +7,35 @@ import {
 } from "@/assets/Icons";
 import Link from "next/link";
 
-const SocialIcons = () => {
+const SocialIcons = ({ className }: any) => {
   return (
     <>
-      <div className="flex gap-2">
-        <Link href="https://www.facebook.com/bsidesgoa" target="_blank">
+      <div className={`flex ${className}`}>
+        <Link
+          href="https://www.facebook.com/bsidesgoa"
+          target="_blank"
+          className="hover:scale-150 duration-150"
+        >
           <FacebookIcon />
         </Link>
-        <Link href="https://twitter.com/bsidesgoa" target="_blank">
+        <Link
+          href="https://twitter.com/bsidesgoa"
+          target="_blank"
+          className="hover:scale-150 duration-150"
+        >
           <TwitterIcon />
         </Link>
-        <Link href="https://www.instagram.com/bsides_goa/" target="_blank">
+        <Link
+          href="https://www.instagram.com/bsides_goa/"
+          target="_blank"
+          className="hover:scale-150 duration-150"
+        >
           <InstagramIcon />
         </Link>
         <Link
           href="https://www.linkedin.com/company/bsidesgoa/"
           target="_blank"
+          className="hover:scale-150 duration-150"
         >
           <LinkedinIcon />
         </Link>

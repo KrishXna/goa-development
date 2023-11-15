@@ -17,9 +17,9 @@ const Footer = ({ className }: Props) => {
   return (
     <>
       <div className="relative">
-        <div className="absolute right-0 bottom-0">
+        {/* <div className="absolute right-0 bottom-0">
           <BgCircuitRight className="w-full" />
-        </div>
+        </div> */}
       </div>
       <div className={`w-full pt-10 relative ${className}`}>
         <Container className="z-20 relative">
@@ -32,64 +32,72 @@ const Footer = ({ className }: Props) => {
                   <li>8:30 AM - 7:00 PM</li>
                   <li>Planet Hollywood Resort, Goa</li>
                   <Link href="https://www.hello@bsidesgoa.com" target="_blank">
-                    <li className="font-bold">hello@bsidesgoa.com</li>
+                    <li className="font-bold hover:text-yellow-200">
+                      hello@bsidesgoa.com
+                    </li>
                   </Link>
                   <Link
-                    href="https://www.Sponsor@bsidesgoa.com"
+                    href="https://www.sponsors@bsidesgoa.com"
                     target="_blank"
                   >
-                    <li className="font-bold">Sponsor@bsidesgoa.com</li>
+                    <li className="font-bold hover:text-yellow-200">
+                      Sponsors@bsidesgoa.com
+                    </li>
                   </Link>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
-                  <li className="text-white-100 text-xl">
+                  <li className="text-white-100 text-xl hover:text-yellow-200">
                     <Link href="/about">About</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-yellow-200">
                     <Link href="/">BSides Goa</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-yellow-200">
                     <Link href="/coreteam">Core Team</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-yellow-200">
                     <Link href="/volunteer">Volunteers</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-yellow-200">
                     <Link href="/mentors">Mentors</Link>
                   </li>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
-                  <li className="text-white-100 text-xl">Schedule</li>
-                  <li>
+                  <li className="text-white-100 text-xl hover:text-yellow-200">
+                    Schedule
+                  </li>
+                  <li className="hover:text-yellow-200">
                     <Link href="/trainings">Trainings</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-yellow-200">
                     <Link href="#">Speakers</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-yellow-200">
                     <Link href="/ctf">CTF</Link>
                   </li>
-                  <li>Live Hacking Event</li>
-                  <li>Career Carnival</li>
+                  <li className="hover:text-yellow-200">Live Hacking Event</li>
+                  <li className="hover:text-yellow-200">Career Carnival</li>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
                 <ul className="w-full md:1/4  flex flex-col gap-2 md:gap-4">
-                  <li className="text-white-100 text-xl">
+                  <li className="text-white-100 text-xl hover:text-yellow-200">
                     <Link href="/sponsors">Sponsors</Link>
                   </li>
-                  <li>Community Partner</li>
-                  <li className="font-bold">
+                  <li className="hover:text-yellow-200">Community Partner</li>
+                  <li className="font-bold hover:text-yellow-200">
                     <Link href="/register">Register</Link>
                   </li>
-                  <li>Community Partner</li>
-                  <li className="font-bold">Contact Us</li>
+                  <li className="hover:text-yellow-200">Community Partner</li>
+                  <li className="font-bold hover:text-yellow-200">
+                    Contact Us
+                  </li>
                   <li>
-                    <SocialIcons />
+                    <SocialIcons className="gap-2" />
                   </li>
                 </ul>
               </div>

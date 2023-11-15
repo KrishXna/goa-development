@@ -39,7 +39,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleOutsideClick = (event: MouseEvent) => {
-      const menuContainer = document.getElementById("submenubox"); // Add an id to your menu container
+      const menuContainer = document.getElementById("submenubox");
       if (menuContainer && !menuContainer.contains(event.target as Node)) {
         setShowNavMenus(-1);
       }
@@ -62,9 +62,9 @@ const Navbar = () => {
       {showNav && <div className="fixed inset-0 z-[25] backdrop-blur-md" />}
 
       <div>
-        <div className="absolute z-0 left-0 top-0 w-full overflow-hidden">
+        {/* <div className="absolute z-0 left-0 top-0 w-full overflow-hidden">
           {pathname !== "/" && <BgCircuit />}
-        </div>
+        </div> */}
         <div className={`${showNav ? "" : "overflow-hidden"} relative z-50`}>
           <div
             className={`${
@@ -72,7 +72,7 @@ const Navbar = () => {
                 ? "translate-x-0 translate-y-auto overflow-auto h-scree"
                 : "translate-x-full"
             }
-            bg-[#1A1D23 lg:mr-6 xl:mr-20 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full md:w-1/2 lg:w-1/3`}
+          lg:mr-6 xl:mr-20 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full sm:1/2 md:w-1/3 lg:w-1/4`}
           >
             <div>
               <div className="w-full text-white-100 pb-10 flex flex-col justify-center items-center gap-2 mt-20">

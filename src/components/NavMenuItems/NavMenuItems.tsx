@@ -43,6 +43,11 @@ export const NavMenuItems: NavMenu[] = [
     ],
   },
   {
+    name: "CFP",
+    slug: "/cfp",
+    children: [],
+  },
+  {
     name: "Register",
     slug: "register",
     children: [],

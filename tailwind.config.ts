@@ -25,19 +25,17 @@ const config: Config = {
         100: "#32323A",
         200: "#1A1D23",
       },
+      red: {
+        500: "#FF0000",
+      },
     },
     extend: {
       animation: {
         "spin-slowest": "spin 200s linear infinite",
       },
       backgroundImage: {
-        // "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        // "gradient-conic":
-        //   "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        gradient: "linear-gradient(120.24deg ,#000,rgba(25, 25, 34, 0))",
       },
-      // background:{
-      //     gradient:linear-gradient(180deg, #FFE27E 0%, #FFA81C 100%);
-      // }
     },
   },
   plugins: [],
