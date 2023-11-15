@@ -2,43 +2,43 @@ import React from "react";
 import Container from "@/components/Container";
 import BannerImg from "@/assets/tinified/cfp.png";
 import Banner from "@/components/Banner/Banner";
-import jacobSmith from "@/assets/Silhoutte.png";
-
+import Silhoutte from "@/assets/Silhoutte.png";
 import { Usercard } from "@/components/Card";
 import { BgCircuitRight } from "@/assets/Icons";
+
 const page = () => {
   const data = [
     {
       name: "To be announce Soon",
-      image: jacobSmith,
-      image2: jacobSmith,
+      image: Silhoutte,
+      image2: Silhoutte,
       title: "To be announce Soon",
     },
     {
       name: "To be announce Soon",
-      image: jacobSmith,
-      image2: jacobSmith,
+      image: Silhoutte,
+      image2: Silhoutte,
 
       title: "To be announce Soon",
     },
     {
       name: "To be announce Soon",
-      image: jacobSmith,
-      image2: jacobSmith,
+      image: Silhoutte,
+      image2: Silhoutte,
 
       title: "To be announce Soon",
     },
     {
       name: "To be announce Soon",
-      image: jacobSmith,
-      image2: jacobSmith,
+      image: Silhoutte,
+      image2: Silhoutte,
 
       title: "To be announce Soon",
     },
     {
       name: "To be announce Soon",
-      image: jacobSmith,
-      image2: jacobSmith,
+      image: Silhoutte,
+      image2: Silhoutte,
 
       title: "To be announce Soon",
     },

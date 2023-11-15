@@ -31,9 +31,9 @@ const page = () => {
                   <th className="px-10 py-4 rounded-l-lg border-r-2 border-black">
                     FEATURES
                   </th>
-                  <th className="px-10 py-4 border-r-2 border-black">
+                  {/* <th className="px-10 py-4 border-r-2 border-black">
                     STUDENT PASS
-                  </th>
+                  </th> */}
                   <th className="px-10 py-4 border-r-2 border-black">
                     INDIVIDUAL PASS
                   </th>
@@ -50,9 +50,9 @@ const page = () => {
                   <td className="rounded-l-lg py-4 w-1/5 border-r border-white-100">
                     ACCESS TO THE <br /> CONFERENCE
                   </td>
-                  <td className="px-6 py-4 border-r border-white-100">
+                  {/* <td className="px-6 py-4 border-r border-white-100">
                     <RightTickIcon />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 border-r border-white-100">
                     <RightTickIcon />
                   </td>
@@ -67,9 +67,9 @@ const page = () => {
                   <td className="rounded-l-lg py-4 border-r border-white-100">
                     LUNCH / TEA - <br /> COFFEE
                   </td>
-                  <td className="px-6 py-4 border-r border-white-100">
+                  {/* <td className="px-6 py-4 border-r border-white-100">
                     <RightTickIcon />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 border-r border-white-100">
                     <RightTickIcon />
                   </td>
@@ -84,9 +84,9 @@ const page = () => {
                   <td className="rounded-l-lg py-4 border-r border-white-100">
                     BSIDES GOA <br /> HACKER T-SHIRT
                   </td>
-                  <td className="px-6 py-4 border-r border-white-100">
+                  {/* <td className="px-6 py-4 border-r border-white-100">
                     <RightTickIcon />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 border-r border-white-100">
                     <RightTickIcon />
                   </td>
@@ -102,9 +102,9 @@ const page = () => {
                   <td className="rounded-l-lg py-4 border-r border-white-100">
                     ACCESS TO THE BSIDES <br /> NETWORKING PARTY
                   </td>
-                  <td className="px-6 py-4 border-r border-white-100">
+                  {/* <td className="px-6 py-4 border-r border-white-100">
                     <WrongTickIcon />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 border-r border-white-100">
                     <WrongTickIcon />
                   </td>
@@ -119,9 +119,9 @@ const page = () => {
                   <td className="rounded-l-lg py-4 border-r border-white-100">
                     ACCESS TO THE SELECTED <br /> THREE DAYS TRAINING
                   </td>
-                  <td className="px-6 py-4 border-r border-white-100">
+                  {/* <td className="px-6 py-4 border-r border-white-100">
                     <WrongTickIcon />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 border-r border-white-100">
                     <WrongTickIcon />
                   </td>
@@ -136,9 +136,9 @@ const page = () => {
                   <td className="rounded-l-lg py-4 border-r border-white-100">
                     TRAINING COMPLETION <br /> E-CERTIFICATE
                   </td>
-                  <td className="px-6 py-4 border-r border-white-100">
+                  {/* <td className="px-6 py-4 border-r border-white-100">
                     <WrongTickIcon />
-                  </td>
+                  </td> */}
                   <td className="px-6 py-4 border-r border-white-100">
                     <WrongTickIcon />
                   </td>

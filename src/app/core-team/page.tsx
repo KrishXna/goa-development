@@ -3,35 +3,30 @@ import Container from "@/components/Container";
 import BannerImg from "@/assets/tinified/core-team.png";
 import Banner from "@/components/Banner/Banner";
 import { Usercard } from "@/components/Card";
-import Adrian from "@/assets/Images/adrian.png";
-import YashMittal from "@/assets/Images/yash-mittal.png";
-import RowanSullivan from "@/assets/Images/rowan-sullivan.png";
+import Silhoutte from "@/assets/Silhoutte.png";
 import { BgCircuitRight } from "@/assets/Icons";
 
 const page = () => {
   const data = [
     {
-      name: "Adrian",
-      image: Adrian,
-      image2: YashMittal,
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      name: "To be announce",
+      image: Silhoutte,
+      image2: Silhoutte,
+      title: "To be announce Soon",
     },
     {
-      name: "Rowan Sullivan",
-      image: RowanSullivan,
-      image2: Adrian,
+      name: "To be announce",
+      image: Silhoutte,
+      image2: Silhoutte,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
     {
-      name: "Yash Mittal",
-      image: YashMittal,
-      image2: RowanSullivan,
+      name: "To be announce",
+      image: Silhoutte,
+      image2: Silhoutte,
 
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      title: "To be announce Soon",
     },
   ];
   return (
