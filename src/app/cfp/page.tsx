@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/tinified/cfp.png";
+import BannerImg from "@/assets/tinified/cfp.jpg";
 import Banner from "@/components/Banner/Banner";
 import Silhoutte from "@/assets/Silhoutte.png";
 import { Usercard } from "@/components/Card";

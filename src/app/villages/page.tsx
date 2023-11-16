@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import VillagesImg from "@/assets/tinified/village.png";
+import VillagesImg from "@/assets/tinified/village.jpg";
 import Banner from "@/components/Banner/Banner";
 import { BgCircuitRight } from "@/assets/Icons";
 

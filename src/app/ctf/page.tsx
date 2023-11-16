@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import CTFImg from "@/assets/tinified/ctf.png";
+import CTFImg from "@/assets/tinified/ctf.jpg";
 // import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 import { BgCircuitRight } from "@/assets/Icons";
