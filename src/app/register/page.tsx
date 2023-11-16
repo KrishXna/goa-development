@@ -286,10 +286,7 @@ const page = () => {
               Register Now
             </Button>
           </div> */}
-          <EventAccordion
-            question="Terms & Conditions"
-            answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt animi omnis laborum quibusdam doloremque unde nihil, placeat nostrum hic?"
-          />
+          <EventAccordion question="Terms & Conditions" answer="" />
         </div>
       </Container>
       {/* <div className="absolute right-0 bottom-0">
