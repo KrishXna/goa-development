@@ -50,7 +50,7 @@ const Mentors = () => {
       linkedin: "https://www.linkedin.com/in/fernandogont/",
     },
     {
-      name: "Sapan T.",
+      name: "Sapan Talwar",
       image: Sapan,
       image2: Sapan,
       title:

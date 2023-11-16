@@ -3,7 +3,6 @@ import React from "react";
 import Container from "@/components/Container";
 import SocialIcons from "../SocialIcons/SocialIcons";
 import Logo from "@/assets/Images/logo.png";
-import { BgCircuitRight } from "@/assets/Icons";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
@@ -31,19 +30,16 @@ const Footer = ({ className }: Props) => {
                   <li>25th - 27th April 2023</li>
                   <li>8:30 AM - 7:00 PM</li>
                   <li>Planet Hollywood Resort, Goa</li>
-                  <Link href="https://www.hello@bsidesgoa.com" target="_blank">
+                  <a href="mailto:hello@bsidesgoa.com" target="_blank">
                     <li className="font-bold hover:text-yellow-200">
                       hello@bsidesgoa.com
                     </li>
-                  </Link>
-                  <Link
-                    href="https://www.sponsors@bsidesgoa.com"
-                    target="_blank"
-                  >
+                  </a>
+                  <a href="mailto:sponsors@bsidesgoa.com" target="_blank">
                     <li className="font-bold hover:text-yellow-200">
                       Sponsors@bsidesgoa.com
                     </li>
-                  </Link>
+                  </a>
                 </ul>
               </div>
               <div className="mt-8 md:mt-0">
@@ -97,7 +93,7 @@ const Footer = ({ className }: Props) => {
                     <Link href="/register">Register</Link>
                   </li>
                   <li className="hover:text-yellow-200">
-                    <Link href="#">Community Partner</Link>
+                    <Link href="/community-partner">Community Partner</Link>
                   </li>
                   <li className="font-bold hover:text-yellow-200">
                     <Link href="/contact-us">Contact Us</Link>

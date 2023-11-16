@@ -52,9 +52,9 @@ const page = () => {
         <Banner text="VOLUNTEERS" image={VolunteersImg.src} />;
         <Container glowEffect className="relative z-20">
           <div className="flex flex-wrap justify-center pb-20 max-w-5xl mx-auto">
-            {data.map((item) => (
+            {data.map((item, i) => (
               <Usercard
-                key={item.name}
+                key={i}
                 src={item.image.src}
                 img={item.image2?.src}
                 name={item.name}

@@ -11,13 +11,13 @@ const WrongTickIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_70_1301)">
+        <g clipPath="url(#clip0_70_1301)">
           <path
             d="M11 11L25 25M25 11L11 25"
             stroke="#FF0000"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
         <circle cx="18" cy="18" r="17.5" stroke="#FF0000" />

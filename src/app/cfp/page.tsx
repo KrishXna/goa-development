@@ -55,9 +55,9 @@ const page = () => {
           <div className="flex flex-col gap-8">
             <h2 className="text-white-100 font-bold text-3xl">Review Panel </h2>
             <div className="flex flex-wrap justify-center">
-              {data.map((item) => (
+              {data.map((item, i) => (
                 <Usercard
-                  key={item.name}
+                  key={i}
                   src={item.image.src}
                   img={item.image2?.src}
                   name={item.name}

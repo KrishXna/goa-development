@@ -15,9 +15,9 @@ const ArrowRightIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (
       <path
         d="M36 12L25.8 22L2 22L11.35 12L2 2L25.8 2L36 12Z"
         stroke="#F5BE3D"
-        stroke-width="3.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
