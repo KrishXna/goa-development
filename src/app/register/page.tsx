@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/Images/register.png";
+import BannerImg from "@/assets/tinified/register.jpg";
 import Banner from "@/components/Banner/Banner";
 import Button from "@/components/Button/Button";
 import EventAccordion from "@/components/EventAccordion/EventAccordion";
@@ -14,9 +14,8 @@ const page = () => {
       <div className="absolute right-0 bottom-0">
         <BgCircuitRight className="w-full h-[60vh]" />
       </div>
+      <Banner text="Register" image={BannerImg.src} />
       <Container glowEffect>
-        <Banner text="" image={BannerImg.src} />
-
         <div className="relative flex flex-col gap-20 w-full">
           <div className="w-full mx-auto overflow-x-auto">
             <table className="w-full text-white-100 border-separate ">

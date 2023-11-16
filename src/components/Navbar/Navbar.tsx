@@ -68,7 +68,7 @@ const Navbar = () => {
           <div
             className={`${
               showNav
-                ? "translate-x-0 translate-y-auto overflow-auto h-scree"
+                ? "translate-x-0 translate-y-auto overflow-auto"
                 : "translate-x-full"
             }
           lg:mr-6 xl:mr-20 bg-white-100 z-50 absolute right-0 duration-300 delay-150 w-full sm:1/2 md:w-1/3 lg:w-1/4`}
@@ -224,9 +224,15 @@ const Navbar = () => {
                     </ul>
                   </div>
                   {/* Hamburger */}
-                  <div className="pr-4 relative z-50">
+                  <div
+                    className={`relative z-50 ${
+                      showNav
+                        ? "lg:fixed lg:right-[100px] xl:right-[155px] lg:top-[30px]"
+                        : ""
+                    }`}
+                  >
                     <button
-                      className="flex flex-col gap-2 items-end"
+                      className="flex flex-col gap-2 items-end w-10 h-8"
                       onClick={handleNavbar}
                     >
                       <span
