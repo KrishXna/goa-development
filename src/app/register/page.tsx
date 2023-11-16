@@ -41,7 +41,7 @@ const page = () => {
                     CORPORATE PASS
                   </th>
                   <th className="px-10 py-4 rounded-r-lg w-1/5">
-                    3 DAYS TRAINING PASS
+                    2 DAYS TRAINING PASS
                   </th>
                 </tr>
               </thead>
@@ -210,7 +210,7 @@ const page = () => {
                       PASSES
                     </th>
                     <th className="px-10 py-5 rounded-r-lg" colSpan={2}>
-                      AT-CON RATES(1ST AUGUST - TILL SOLD OUT)
+                      AT-CON RATES(1ST NOVEMBER - TILL SOLD OUT)
                     </th>
                   </tr>
                 </thead>
@@ -226,13 +226,13 @@ const page = () => {
                     <td className="py-5 border-r-2 border-black">INR</td>
                     <td className="px-6 rounded-r-lg py-5">USD</td>
                   </tr>
-                  <tr className="text-center text-white-100/90 text-xl font-semibold">
+                  {/* <tr className="text-center text-white-100/90 text-xl font-semibold">
                     <td className="rounded-l-lg py-5 border-r border-white-100">
                       STUDENT PASS
                     </td>
                     <td className="px-6 py-4 border-r border-white-100">TBD</td>
                     <td className="px-6 py-4">TBD</td>
-                  </tr>
+                  </tr> */}
                   <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
                     <td className="rounded-l-lg py-5 border-r border-white-100">
                       INDIVIDUAL PASS
@@ -249,7 +249,7 @@ const page = () => {
                   </tr>
                   <tr className="text-center text-white-100/90 text-xl font-semibold bg-gray-100">
                     <td className="rounded-l-lg py-5 border-r border-white-100">
-                      3 DAYS TRAINING PASS
+                      2 DAYS TRAINING PASS
                     </td>
                     <td className="px-6 py-4 border-r border-white-100">TBD</td>
                     <td className="px-6 py-4 rounded-r-lg">TBD</td>
