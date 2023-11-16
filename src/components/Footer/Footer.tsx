@@ -93,7 +93,7 @@ const Footer = ({ className }: Props) => {
                     <Link href="/register">Register</Link>
                   </li>
                   <li className="hover:text-yellow-200">
-                    <Link href="#">Community Partner</Link>
+                    <Link href="/community-partner">Community Partner</Link>
                   </li>
                   <li className="font-bold hover:text-yellow-200">
                     <Link href="/contact-us">Contact Us</Link>
