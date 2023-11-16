@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/tinified/sponsors.png";
+import BannerImg from "@/assets/tinified/sponsors.jpg";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import Banner from "@/components/Banner/Banner";
 import { BgCircuitRight } from "@/assets/Icons";

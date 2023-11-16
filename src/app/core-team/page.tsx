@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/tinified/core-team.png";
+import BannerImg from "@/assets/tinified/core-team.jpg";
 import Banner from "@/components/Banner/Banner";
 import { Usercard } from "@/components/Card";
 import Silhoutte from "@/assets/Silhoutte.png";

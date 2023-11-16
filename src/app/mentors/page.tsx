@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/Images/mentors_hero_section_image.png";
+import BannerImg from "@/assets/Images/mentors_hero_section_image.jpg";
 import Banner from "@/components/Banner/Banner";
 import { MentorsCard } from "@/components/Card";
 import JackDaniel from "@/assets/mentors/jackdaniel.png";

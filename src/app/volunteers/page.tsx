@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import VolunteersImg from "@/assets/tinified/voluntteer.png";
+import VolunteersImg from "@/assets/tinified/voluntteer.jpg";
 import Banner from "@/components/Banner/Banner";
 import { Usercard } from "@/components/Card";
 import { BgCircuitRight } from "@/assets/Icons";

@@ -1,7 +1,7 @@
 import React from "react";
 // import EventAccordion from "@/components/EventAccordion/EventAccordion";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/tinified/faq.png";
+import BannerImg from "@/assets/tinified/faq.jpg";
 import Banner from "@/components/Banner/Banner";
 import { BgCircleIcon, BgCircuitRight } from "@/assets/Icons";
 
