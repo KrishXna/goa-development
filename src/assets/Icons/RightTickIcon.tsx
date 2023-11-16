@@ -11,12 +11,12 @@ const RightTickIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_70_997)">
+        <g clipPath="url(#clip0_70_997)">
           <path
             d="M9.76838 19.0991L12.2964 23.7952C12.5861 24.3333 12.7309 24.6024 12.9781 24.6397C13.2253 24.6769 13.4431 24.4626 13.8785 24.0338L27.18 10.9375"
             stroke="#5BF96B"
-            stroke-width="2"
-            stroke-linecap="round"
+            strokeWidth="2"
+            strokeLinecap="round"
           />
         </g>
         <circle cx="18" cy="18" r="17.5" stroke="#5BF96B" />

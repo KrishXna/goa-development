@@ -13,9 +13,9 @@ const LineIcons: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
       <path
         d="M2 12L12.2 2L36 2L26.65 12L36 22L12.2 22L2 12Z"
         stroke="#F5BE3D"
-        stroke-width="3.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

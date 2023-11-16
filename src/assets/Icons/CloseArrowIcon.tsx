@@ -15,9 +15,9 @@ const CloseArrowIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (
       <path
         d="M1 1L12 12M12 1L1 12"
         stroke="white"
-        stroke-width="4.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="4.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
