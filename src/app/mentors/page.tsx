@@ -42,8 +42,8 @@ const page = () => {
     },
     {
       image: Sapan,
-      name: "Sapan",
-      bio: "Sapan is a seasoned practitioner with 25+ years of industry experience in areas including Information Technology, Information Security,  Cyber Resilience,  Cyber & Digital Transformation, Data privacy and Information Risk management. He holds extensive Global experience in establishing Technology programs, Security Centre of Excellence, Risk management & Compliance frameworks while leading and managing highly skilled teams.In a prolonged career, Sapan has been associated with multinationals including IBM, Hughes, Canon, Genpact, Aon, Adobe, Tower Research Capital and Perfetti Van Melle in various individual, team and senior management roles, working towards producing desired results, while partnering with stakeholders to enable business growth.",
+      name: "Sapan Talwar",
+      bio: "Sapan Talwar is a seasoned practitioner with 25+ years of industry experience in areas including Information Technology, Information Security,  Cyber Resilience,  Cyber & Digital Transformation, Data privacy and Information Risk management. He holds extensive Global experience in establishing Technology programs, Security Centre of Excellence, Risk management & Compliance frameworks while leading and managing highly skilled teams.In a prolonged career, Sapan has been associated with multinationals including IBM, Hughes, Canon, Genpact, Aon, Adobe, Tower Research Capital and Perfetti Van Melle in various individual, team and senior management roles, working towards producing desired results, while partnering with stakeholders to enable business growth.",
 
       alter: true,
     },
