@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/Container";
-import BannerImg from "@/assets/Images/mentors_hero_section_image.jpg";
+import BannerImg from "@/assets/tinified/cfp.jpg";
 import Banner from "@/components/Banner/Banner";
 import { MentorsCard } from "@/components/Card";
 import { BgCircuitRight } from "@/assets/Icons";
@@ -63,7 +63,7 @@ const page = () => {
         <div className="absolute right-0 bottom-0">
           <BgCircuitRight className="w-full" />
         </div>
-        <Banner text="Mentors" image={BannerImg.src} />
+        <Banner text="CFP REVIEW PANEL" image={BannerImg.src} />
         <Container glowEffect>
           <div className="flex flex-col gap-8">
             <h2 className="text-white-100 font-bold text-3xl">
