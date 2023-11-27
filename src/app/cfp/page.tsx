@@ -12,7 +12,8 @@ import BryceKunz from "@/assets/mentors/bryce-kunz.png";
 import AnantSrivastava from "@/assets/mentors/anant-srivastav.png";
 import AvkashKathiriya from "@/assets/mentors/avkash-kathiriya.png";
 import PranjalKulkarni from "@/assets/mentors/pranjal-kulkarni.png";
-const page = ({ link }: any) => {
+import Link from "next/link";
+const page = () => {
   const data = [
     {
       name: "Tamanghna Basu",
@@ -22,6 +23,7 @@ const page = ({ link }: any) => {
         "Founder - DeTaSECURE | WEB3, AI Security | 3-time founder | Advisor Board @ GIET University | Mentor @ Stanford Cybersecurity | Keynote Speaker | Startup Advisor | ex PayPal, Walmart, PwC | Helping orgs in security",
       twitter: "https://twitter.com/@mnkbuddh",
       linkedin: "https://www.linkedin.com/in/tamaghnabasu",
+      linkhref: "/cfp-review-panel",
     },
     {
       name: "Neelu Tripathy",
@@ -31,6 +33,7 @@ const page = ({ link }: any) => {
         "Senior Cyber Security Expert | OSCP | Podcast Host at Br3akp0int Security Podcast",
       twitter: "https://twitter.com/@NeeluTripathy",
       linkedin: "https://www.linkedin.com/in/neelutripathy",
+      linkhref: "/cfp-review-panel",
     },
     {
       name: "Riyaz Walikar",
@@ -39,6 +42,7 @@ const page = ({ link }: any) => {
       title: "Co-Founder @ Kloudle",
       twitter: "https://twitter.com/@riyazwalikar",
       linkedin: "https://in.linkedin.com/in/riyazw",
+      linkhref: "/cfp-review-panel",
     },
     {
       name: "Bryce Kunz",
@@ -47,6 +51,7 @@ const page = ({ link }: any) => {
       title: "Chief Strategy Officer (CSO) at UltraViolet Cyber",
       twitter: "https://twitter.com/TweekFawkes",
       linkedin: "https://www.linkedin.com/in/brycekunz/",
+      linkhref: "/cfp-review-panel",
     },
     {
       name: "Anant Srivastava",
@@ -56,6 +61,7 @@ const page = ({ link }: any) => {
         "Chief Researcher / Founder @ Cyfinoid Research Private Limited · Self-employed | Head of Android Security iCAMPS @ Internet and Mobile Association of India | Secretary @ null - The Open Security Community",
       twitter: "https://twitter.com/@anantshri",
       linkedin: "https://www.linkedin.com/in/anantshri/",
+      linkhref: "/cfp-review-panel",
     },
     {
       name: "Avkash Kathiriya",
@@ -65,6 +71,7 @@ const page = ({ link }: any) => {
         "Cyber Security Leader, Sr. VP - Research and Innovation at Cyware Labs, Ex- HDFC Bank, Ex- Symantec",
       twitter: "https://twitter.com/@avkashk",
       linkedin: "https://www.linkedin.com/in/avkash-kathiriya-472b2b28/",
+      linkhref: "/cfp-review-panel",
     },
     {
       name: "Pranjal Kulkarni",
@@ -73,6 +80,7 @@ const page = ({ link }: any) => {
       title: "CISO at Groww | Ex-Flipkart | Ex-PayPal",
       // twitter: "https://twitter.com/",
       linkedin: "https://www.linkedin.com/in/prajalkulkarni/",
+      linkhref: "/cfp-review-panel",
     },
   ];
   return (
@@ -96,6 +104,7 @@ const page = ({ link }: any) => {
                   title={item.title}
                   twitter={item.twitter}
                   linkedin={item.linkedin}
+                  linkHref={item.linkhref}
                 />
               ))}
             </div>

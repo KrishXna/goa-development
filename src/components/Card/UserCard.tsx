@@ -10,9 +10,18 @@ type Props = {
   title: string;
   twitter?: string;
   linkedin?: string;
+  linkHref?: any;
 };
 
-const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
+const UserCard = ({
+  src,
+  name,
+  title,
+  twitter,
+  linkedin,
+  img,
+  linkHref,
+}: Props) => {
   const [showSecondImg, setShowSecondImg] = useState(false);
 
   useEffect(() => {
@@ -25,7 +34,7 @@ const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
     <>
       <div className="max-w-[300px] p-6 group">
         <div className="text-center group-hover cursor-pointer group-hover:rounded-lg">
-          <Link href="cfp-review-panel">
+          <a href={linkHref}>
             <div className="relative">
               <div
                 className={`absolute inset-0 top-0 duration-300
@@ -51,7 +60,7 @@ const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
                 </div>
               </div>
             </div>
-          </Link>
+          </a>
           <div
             className="relative -top-4 gap-10 rounded-full py-2 inline-block px-8"
             style={{

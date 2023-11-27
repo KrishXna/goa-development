@@ -19,6 +19,7 @@ const Mentors = () => {
       title: "Co-founder Security BSides",
       twitter: "https://twitter.com/@jack_daniel",
       linkedin: "https://www.linkedin.com/in/jackadaniel/",
+      linkhref: "/mentors",
     },
     {
       name: "Vandana Verma",
@@ -28,6 +29,7 @@ const Mentors = () => {
         "Security Leader @ Snyk | OWASP BoD | President InfosecGirls | DevRel, SecRel, opensource",
       twitter: "https://twitter.com/@InfosecVandana",
       linkedin: "https://www.linkedin.com/in/vandana-verma/",
+      linkhref: "/mentors",
     },
     {
       name: "Aditya Sood",
@@ -37,6 +39,7 @@ const Mentors = () => {
         "Sr. Director @ F5 | Cyber Security Leader, Advisor, Author of Targeted Cyber Attacks and Empirical Cloud Security Books",
       twitter: "https://twitter.com/@AdityaKSood",
       linkedin: "https://www.linkedin.com/in/adityaks/",
+      linkhref: "/mentors",
     },
     {
       name: "Fernando Gont",
@@ -45,6 +48,7 @@ const Mentors = () => {
       title: "Staff Platform Security Engineer at Yalo",
       twitter: "https://twitter.com/@FernandoGont",
       linkedin: "https://www.linkedin.com/in/fernandogont/",
+      linkhref: "/mentors",
     },
     {
       name: "Sapan Talwar",
@@ -54,6 +58,7 @@ const Mentors = () => {
         "Global CISO @ Perfetti Van Melle | Founder | Board Member | Cyber and Information Risk Practitioner | Speaker | Jury member",
       twitter: "https://twitter.com/@sapytalwar",
       linkedin: "https://www.linkedin.com/in/sapantalwar/",
+      linkhref: "/mentors",
     },
     {
       name: "Arjun Thusu",
@@ -63,6 +68,7 @@ const Mentors = () => {
         "Chief Information Officer @ Mercury® Financial | CIO | 5x CISO | Investor | Board Member",
       twitter: "",
       linkedin: "https://www.linkedin.com/in/arjun-t-85a6952",
+      linkhref: "/mentors",
     },
   ];
   return (
@@ -95,6 +101,7 @@ const Mentors = () => {
                   title={item.title}
                   twitter={item.twitter}
                   linkedin={item.linkedin}
+                  linkHref={item.linkhref}
                 />
               </>
             ))}
