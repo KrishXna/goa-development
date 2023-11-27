@@ -25,7 +25,7 @@ const UserCard = ({ src, name, title, twitter, linkedin, img }: Props) => {
     <>
       <div className="max-w-[300px] p-6 group">
         <div className="text-center group-hover cursor-pointer group-hover:rounded-lg">
-          <Link href="/mentors">
+          <Link href="cfp-review-panel">
             <div className="relative">
               <div
                 className={`absolute inset-0 top-0 duration-300
