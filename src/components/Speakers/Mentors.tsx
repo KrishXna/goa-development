@@ -1,11 +1,8 @@
 import React from "react";
 import JackDaniel from "@/assets/Mentorslandingpage/jackdaniel.png";
-// import JackDaniel2 from "@/assets/Mentorslandingpage/jackdanielv2.png";
 import VandanaVerma from "@/assets/Mentorslandingpage/vandana.png";
-// import VandanaVerma2 from "@/assets/Mentorslandingpage/vandanav2.png";
 import AdityaSood from "@/assets/Mentorslandingpage/adityasood.png";
 import Fernando from "@/assets/Mentorslandingpage/fernando.png";
-// import Fernando2 from "@/assets/Mentorslandingpage/fernandov2.png";
 import Sapan from "@/assets/Mentorslandingpage/sapna.png";
 import ArjunThusu from "@/assets/Mentorslandingpage/arjjunthusu.png";
 import Container from "@/components/Container";

@@ -108,7 +108,7 @@ const Navbar = () => {
                       </div>
 
                       {openMenuIndex === index && (
-                        <ul className="relative text-[#000] font-semibold text-base flex flex-col items-end gap-1 w-full lg:pr-10">
+                        <ul className="relative text-[#000] font-semibold text-base flex flex-col items-end gap-1 w-full lg:pr10">
                           {navMenu?.children &&
                             navMenu?.children.length > 0 &&
                             navMenu?.children.map((child, childIndex) => (
@@ -117,7 +117,7 @@ const Navbar = () => {
                                 key={childIndex}
                               >
                                 <div className="w-full">
-                                  <li className="hover:bg-gray-100/20 rounded-ful py-2 text-end pr-10">
+                                  <li className="hover:bg-gray-100/20 py-2 text-end pr-10 lg:pr-20">
                                     <Link
                                       href={child.slug}
                                       onClick={() => setShowNav(false)}
