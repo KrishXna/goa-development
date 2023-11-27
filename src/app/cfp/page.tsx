@@ -93,7 +93,7 @@ const page = () => {
         <Banner text="CFP REVIEW PANEL" image={BannerImg.src} />
         <Container glowEffect className="relative z-20">
           <div className="flex flex-col gap-8">
-            <h2 className="text-white-100 font-bold text-3xl">Review Panel </h2>
+            {/* <h2 className="text-white-100 font-bold text-3xl">Review Panel </h2> */}
             <div className="flex flex-wrap justify-center gap-x-10 max-w-4xl mx-auto">
               {data.map((item, i) => (
                 <Usercard
