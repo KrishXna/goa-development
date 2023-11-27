@@ -12,7 +12,6 @@ import BryceKunz from "@/assets/mentors/bryce-kunz.png";
 import AnantSrivastava from "@/assets/mentors/anant-srivastav.png";
 import AvkashKathiriya from "@/assets/mentors/avkash-kathiriya.png";
 import PranjalKulkarni from "@/assets/mentors/pranjal-kulkarni.png";
-
 const page = () => {
   const data = [
     {

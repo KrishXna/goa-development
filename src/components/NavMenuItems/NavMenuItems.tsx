@@ -18,7 +18,7 @@ export const NavMenuItems: NavMenu[] = [
       { name: "BSides Goa", slug: "/" },
       { name: "Core Team", slug: "core-team" },
       { name: "Volunteers", slug: "volunteers" },
-      { name: "CFP Review Panel", slug: "cfp" },
+      { name: "CFP Review Panel", slug: "cfp-review-panel" },
       { name: "Mentors", slug: "mentors" },
       { name: "Code of Conduct", slug: "code-of-conduct" },
       { name: "FAQ", slug: "faq" },

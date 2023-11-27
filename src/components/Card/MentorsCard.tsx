@@ -46,7 +46,7 @@ const MentorsCard = ({ img, name, bio, alter = false }: Props) => {
                 <div className="max-w-5xl w-full md:w-4/5 md:pr-10 flex flex-col text-white-100 gap-2 md:text-right">
                   <h2 className="font-bold text-xl">{name}</h2>
                   <div className="text-base">
-                    {showFullBio ? bio : `${bio.substring(0, 300)}...`}
+                    {showFullBio ? bio : `${bio.substring(0, 290)}...`}
                     <span
                       className="text-yellow-200 ml-1 font-semibold cursor-pointer"
                       onClick={handleReadmore}
