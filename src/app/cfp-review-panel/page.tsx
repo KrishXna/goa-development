@@ -4,13 +4,13 @@ import BannerImg from "@/assets/Images/mentors_hero_section_image.jpg";
 import Banner from "@/components/Banner/Banner";
 import { MentorsCard } from "@/components/Card";
 import { BgCircuitRight } from "@/assets/Icons";
-import Tamanghna from "@/assets/mentors/tamaghna-basu.png";
-import NeeluTripathy from "@/assets/mentors/neelu-tripathy.png";
-import RiyazWalikar from "@/assets/mentors/riyaz-walikar.png";
-import BryceKunz from "@/assets/mentors/bryce-kunz.png";
-import AnantSrivastava from "@/assets/mentors/anant-srivastav.png";
-import AvkashKathiriya from "@/assets/mentors/avkash-kathiriya.png";
-import PranjalKulkarni from "@/assets/mentors/pranjal-kulkarni.png";
+import Tamanghna from "@/assets/cfp/tamaghna-basu.png";
+import NeeluTripathy from "@/assets/cfp/neelu-tripathy.png";
+import RiyazWalikar from "@/assets/cfp/riyaz-walikar.png";
+import BryceKunz from "@/assets/cfp/bryce-kunz.png";
+import AnantSrivastava from "@/assets/cfp/anant-srivastav.png";
+import AvkashKathiriya from "@/assets/cfp/avkash-kathiriya.png";
+import PranjalKulkarni from "@/assets/cfp/pranjal-kulkarni.png";
 
 const page = () => {
   const data = [
