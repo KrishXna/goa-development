@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination, Scrollbar } from "swiper/modules";
 import { EffectCoverflow } from "swiper/modules";
@@ -13,6 +13,22 @@ import Slider_img4 from "@/assets/Images/frame-people.png";
 import Slider_img5 from "@/assets/Images/frame-tshirt.png";
 
 const Slider = () => {
+  const [tweets, setTweets] = useState([]);
+  console.log({ tweets });
+
+  useEffect(() => {
+    const fetchTweets = async () => {
+      try {
+        const response = await fetch("/api/twitter");
+        const data = await response.json();
+        setTweets(data);
+      } catch (error) {
+        console.error("Error fetching tweets:", error);
+      }
+    };
+
+    fetchTweets();
+  }, []);
   return (
     <>
       <Container className="py-14">
