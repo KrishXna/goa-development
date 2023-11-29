@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination, Scrollbar } from "swiper/modules";
 import { EffectCoverflow } from "swiper/modules";
@@ -12,23 +12,33 @@ import Slider_img3 from "@/assets/Images/frame-logo.png";
 import Slider_img4 from "@/assets/Images/frame-people.png";
 import Slider_img5 from "@/assets/Images/frame-tshirt.png";
 
+import { TwitterApi } from "twitter-api-client";
+
 const Slider = () => {
-  const [tweets, setTweets] = useState([]);
-  console.log({ tweets });
+  const twitterClient = new TwitterApi({
+    appKey: "yPA9QzwfrUdG4ZYv6EWNoMxYd",
+    appSecret: "2sxFLQZsEPzXIzgSlNVFFbRnlmxbA5YVye0kLWszLMAV91j6AL",
+    accessToken: "1729415747875880960-BSnMO3NlEkyhhAxwq8EIU8lygfXdIf",
+    accessSecret: "p5OTUSnUGDZVqczgicbh8FpUH67IHGZ3ByigKBwg7FxA4",
+  });
 
   useEffect(() => {
-    const fetchTweets = async () => {
+    const fetchTweet = async () => {
       try {
-        const response = await fetch("/api/twitter");
-        const data = await response.json();
-        setTweets(data);
+        const lookupTweetById = await twitterClient.tweets.statusesShow({
+          id: "1460323737035677698",
+        });
+        console.log(lookupTweetById, {
+          depth: null,
+        });
       } catch (error) {
-        console.error("Error fetching tweets:", error);
+        console.error(error);
       }
     };
 
-    fetchTweets();
+    fetchTweet();
   }, []);
+
   return (
     <>
       <Container className="py-14">

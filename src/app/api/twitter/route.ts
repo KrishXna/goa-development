@@ -1,3 +1,4 @@
+// import Twitter from "twitter";
 var Twitter = require("twitter");
 import { NextApiRequest, NextApiResponse } from "next";
 
@@ -20,7 +21,7 @@ const getClientResponse = (endpoint: string, params: any) => {
   });
 };
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+export default async (_req: NextApiRequest, res: NextApiResponse) => {
   const params = { screen_name: "narendramodi" };
   try {
     const tweets = await getClientResponse("statuses/user_timeline", params);
